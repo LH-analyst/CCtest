@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "weekday": "周二",
-  "generated_at": "2026-09-29T10:09+01:00",
+  "generated_at": "2026-09-29T10:14+01:00",
   "weather": {
     "source": "Open-Meteo",
     "sunrise": "06:57",
@@ -22,10 +22,10 @@
     {
       "id": 1,
       "date": "2026-09-29",
-      "time": "10:00",
-      "duration_min": 120,
-      "title": "示例任务：整理GTV作品集",
-      "type": "gtv",
+      "time": "09:00",
+      "duration_min": 720,
+      "title": "店里打扫卫生（预计到晚上）",
+      "type": "work",
       "done": false
     }
   ],
@@ -87,29 +87,7 @@
   ],
   "events_soon": [],
   "route": {
-    "go": true,
-    "route": {
-      "id": "thames-barrier",
-      "name": "Thames Barrier & 河岸工业风",
-      "travel_min": 40,
-      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
-      "best_for": [
-        "cloudy",
-        "partly"
-      ],
-      "spots": [
-        "Thames Barrier Park",
-        "Barrier Gardens 河岸",
-        "Woolwich 渡口"
-      ],
-      "tip": "阴天情绪化工业影调，避开人群。"
-    },
-    "depart": "13:50",
-    "arrive": "14:30",
-    "spot_ready": "15:45",
-    "shoot_start": "16:00",
-    "shoot_end": "18:00",
-    "sunset": "18:42",
-    "buffer_min": 90
+    "go": false,
+    "reason": "13:50–18:00 与日程冲突：09:00 店里打扫卫生（预计到晚上）。"
   }
 }
