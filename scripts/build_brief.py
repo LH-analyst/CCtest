@@ -18,8 +18,9 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DOCS = ROOT / "docs"
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
-STATUS_LABEL = {"done": "已完成", "in_progress": "进行中", "todo": "未开始", "blocked": "受阻"}
-STATUS_WEIGHT = {"done": 1.0, "in_progress": 0.5, "todo": 0.0, "blocked": 0.0}
+STATUS_LABEL = {"done": "已完成", "submitted": "已投递", "in_progress": "进行中", "todo": "待办",
+                "watching": "关注中", "blocked": "受阻"}
+STATUS_WEIGHT = {"done": 1.0, "submitted": 0.8, "in_progress": 0.5, "todo": 0.0, "watching": 0.0, "blocked": 0.0}
 
 
 def load(name):
@@ -169,9 +170,8 @@ def plan_route(day, profile, weather, assessment, task_list, templates):
 
 
 def gtv_summary(gtv):
-    stages = gtv["stages"]
-    pct = round(100 * sum(STATUS_WEIGHT.get(s["status"], 0) for s in stages) / max(1, len(stages)))
-    return pct
+    items = [i for t in gtv["tracks"] for i in t["items"] if i["status"] != "watching"]
+    return round(100 * sum(STATUS_WEIGHT.get(i["status"], 0) for i in items) / max(1, len(items)))
 
 
 def upcoming(items, day, key, horizon=60):
@@ -200,7 +200,9 @@ def build(day, weather, profile):
 
     today_events = [e for e in events if e.get("start", "") <= day.isoformat() <= e.get("end", e.get("start", ""))]
     soon_events = [e for e in upcoming(events, day, "start", 14) if e not in today_events and e["days_left"] > 0]
-    active_comps = [c for c in comps if c.get("status") not in ("submitted", "closed")]
+    active_comps = [c for c in comps if c.get("status") in ("preparing", "watching") and c.get("deadline")]
+    submitted_comps = [c for c in comps if c.get("status") == "submitted"]
+    watching_comps = [c for c in comps if c.get("status") == "watching" and not c.get("deadline")]
 
     return {
         "date": day.isoformat(),
@@ -211,6 +213,8 @@ def build(day, weather, profile):
         "tasks": task_list,
         "gtv": {**gtv, "percent": gtv_summary(gtv)},
         "competitions": upcoming(active_comps, day, "deadline", 90),
+        "competitions_submitted": submitted_comps,
+        "competitions_watching": watching_comps,
         "events_today": today_events,
         "events_soon": soon_events,
         "route": route,
@@ -269,27 +273,34 @@ def render(b):
 
     # gtv
     g = b["gtv"]
-    rows = "".join(
-        f'<li><span class="tag {e(st["status"])}">{STATUS_LABEL.get(st["status"], st["status"])}</span> '
-        f'{e(st["name"])}{" · 截止 " + e(st["due"]) if st.get("due") else ""}'
-        f'<div class="muted">{e(st.get("next_step", ""))}</div></li>'
-        for st in g["stages"]
-    )
+    tracks = ""
+    for t in g["tracks"]:
+        done = sum(1 for i in t["items"] if i["status"] == "done")
+        open_items = "".join(
+            f'<li><span class="tag {e(i["status"])}">{STATUS_LABEL.get(i["status"], i["status"])}</span> {e(i["name"])}'
+            f'{"<div class=muted>" + e(i["note"]) + "</div>" if i.get("note") else ""}</li>'
+            for i in t["items"] if i["status"] != "done"
+        )
+        tracks += f'<h3>{e(t["id"])} · {e(t["name"])} <span class="muted">{done}/{len(t["items"])} 完成</span></h3><ul>{open_items or "<li class=muted>全部完成</li>"}</ul>'
     parts.append(
         f'<section><h2>🛂 GTV 申请进度 · {g["percent"]}%</h2>'
-        f'<div class="bar"><i style="width:{g["percent"]}%"></i></div><ul>{rows}</ul></section>'
+        f'<div class="bar"><i style="width:{g["percent"]}%"></i></div>{tracks}'
+        f'<p class="muted">同步于 {e(g.get("synced", ""))}</p></section>'
     )
 
     # competitions
-    if b["competitions"]:
-        rows = "".join(
-            f'<li><b>{c["days_left"]} 天</b> {e(c["name"])} · 截止 {e(c["deadline"])}'
-            f'{" · " + e(c["theme"]) if c.get("theme") else ""}</li>'
-            for c in b["competitions"]
-        )
-    else:
-        rows = '<li class="muted">暂无即将截止的比赛。</li>'
-    parts.append(f'<section><h2>🏆 摄影比赛</h2><ul>{rows}</ul></section>')
+    rows = "".join(
+        f'<li><b>{c["days_left"]} 天</b> {e(c["name"])} · 截止 {e(c["deadline"])}</li>' for c in b["competitions"]
+    ) + "".join(
+        f'<li><span class="tag submitted">已投递</span> {e(c["name"])}'
+        f'{" · 截止 " + e(c["deadline"]) if c.get("deadline") else ""}</li>'
+        for c in b["competitions_submitted"]
+    ) + "".join(
+        f'<li><span class="tag watching">关注中</span> {e(c["name"])}'
+        f'{" · " + e(c["theme"]) if c.get("theme") else ""}</li>'
+        for c in b["competitions_watching"]
+    )
+    parts.append(f'<section><h2>🏆 摄影比赛</h2><ul>{rows or "<li class=muted>暂无比赛。</li>"}</ul></section>')
 
     # events
     ev = "".join(
@@ -320,11 +331,11 @@ TEMPLATE = """<!doctype html>
 *{box-sizing:border-box;overflow-wrap:anywhere}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 -apple-system,system-ui,sans-serif;padding:16px}
 main{max-width:640px;margin:0 auto}h1{font-size:22px;margin:8px 0 16px}
 section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
-section.hl{border-color:var(--acc)}h2{font-size:15px;margin:0 0 8px}ul{margin:6px 0;padding-left:20px}
+section.hl{border-color:var(--acc)}h2{font-size:15px;margin:0 0 8px}h3{font-size:14px;margin:12px 0 2px}ul{margin:6px 0;padding-left:20px}
 .times{list-style:none;padding:0}.big{font-size:18px;font-weight:600;margin:4px 0}.muted{color:var(--mut);font-size:14px}
 .done{text-decoration:line-through;color:var(--mut)}.bar{height:8px;background:var(--line);border-radius:6px;overflow:hidden;margin:6px 0 10px}
 .bar i{display:block;height:100%;background:var(--acc)}.tag{font-size:12px;padding:1px 8px;border-radius:9px;background:var(--line)}
-.tag.done{background:#16a34a;color:#fff;text-decoration:none}.tag.in_progress{background:var(--acc);color:#fff}
+.tag.done{background:#16a34a;color:#fff;text-decoration:none}.tag.in_progress{background:var(--acc);color:#fff}.tag.submitted{background:#d97706;color:#fff}
 footer{text-align:center;color:var(--mut);font-size:12px;margin:16px 0 32px}
 </style></head><body><main>
 <h1>📅 {{TITLE}}</h1>

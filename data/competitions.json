@@ -1,5 +1,9 @@
 {
   "competitions": [
-    {"name": "示例：请告诉我你关注的摄影比赛", "deadline": "2026-10-31", "theme": "", "status": "watching", "url": ""}
+    {"name": "LensCulture Street Photography Awards 2026", "deadline": null, "theme": "街头摄影", "status": "submitted", "url": ""},
+    {"name": "AAP Magazine Street 2026", "deadline": "2026-09-29", "theme": "街头摄影", "status": "submitted", "url": ""},
+    {"name": "Siena International Photo Awards", "deadline": null, "theme": "2027届待公告", "status": "watching", "url": ""},
+    {"name": "Circulation(s)", "deadline": null, "theme": "2027年春季", "status": "watching", "url": ""},
+    {"name": "Miami Street Photography Festival", "deadline": null, "theme": "需查官网", "status": "watching", "url": ""}
   ]
 }
