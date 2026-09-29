@@ -19,6 +19,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # job-level so step `if:` conditions can see whether the optional secrets exist
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
     steps:
       - uses: actions/checkout@v4
 
@@ -42,8 +46,6 @@ jobs:
       - name: Refresh events with Claude (optional)
         if: steps.gate.outputs.run == 'true' && github.event_name == 'schedule' && env.ANTHROPIC_API_KEY != ''
         uses: anthropics/claude-code-action@v1
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
@@ -68,8 +70,6 @@ jobs:
 
       - name: Push notification via ntfy (optional)
         if: steps.gate.outputs.run == 'true' && env.NTFY_TOPIC != ''
-        env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           curl -s -H "Title: 今日简报" -H "Click: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" \
             -d "今日日程与拍摄路线已生成，点击查看" "https://ntfy.sh/$NTFY_TOPIC"
