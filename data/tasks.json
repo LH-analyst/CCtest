@@ -1,6 +1,8 @@
 {
   "tasks": [
-    {"id": 1, "date": "2026-09-29", "time": "10:00", "duration_min": 120, "title": "示例任务：整理GTV作品集", "type": "gtv", "done": false}
+    {"id": 1, "date": "2026-09-29", "time": "09:00", "duration_min": 720, "title": "店里打扫卫生（预计到晚上）", "type": "work", "done": false},
+    {"id": 2, "date": "2026-09-30", "time": "09:00", "duration_min": 600, "title": "店里铺地板（全天）", "type": "work", "done": false},
+    {"id": 3, "date": "2026-10-01", "time": "09:00", "duration_min": 600, "title": "店里铺地板（全天）", "type": "work", "done": false}
   ],
   "daily": []
 }
