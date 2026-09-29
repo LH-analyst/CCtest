@@ -203,6 +203,7 @@ def build(day, weather, profile):
     active_comps = [c for c in comps if c.get("status") in ("preparing", "watching") and c.get("deadline")]
     submitted_comps = [c for c in comps if c.get("status") == "submitted"]
     watching_comps = [c for c in comps if c.get("status") == "watching" and not c.get("deadline")]
+    results = upcoming([c for c in comps if c.get("result_date")], day, "result_date", 90)
 
     return {
         "date": day.isoformat(),
@@ -213,6 +214,7 @@ def build(day, weather, profile):
         "tasks": task_list,
         "gtv": {**gtv, "percent": gtv_summary(gtv)},
         "competitions": upcoming(active_comps, day, "deadline", 90),
+        "competition_results": results,
         "competitions_submitted": submitted_comps,
         "competitions_watching": watching_comps,
         "events_today": today_events,
@@ -292,6 +294,9 @@ def render(b):
     rows = "".join(
         f'<li><b>{c["days_left"]} 天</b> {e(c["name"])} · 截止 {e(c["deadline"])}</li>' for c in b["competitions"]
     ) + "".join(
+        f'<li><b>{c["days_left"]} 天后</b> {e(c["name"])} 公布结果（{e(c["result_date"])}）</li>'
+        for c in b["competition_results"]
+    ) + "".join(
         f'<li><span class="tag submitted">已投递</span> {e(c["name"])}'
         f'{" · 截止 " + e(c["deadline"]) if c.get("deadline") else ""}</li>'
         for c in b["competitions_submitted"]
@@ -300,7 +305,8 @@ def render(b):
         f'{" · " + e(c["theme"]) if c.get("theme") else ""}</li>'
         for c in b["competitions_watching"]
     )
-    parts.append(f'<section><h2>🏆 摄影比赛</h2><ul>{rows or "<li class=muted>暂无比赛。</li>"}</ul></section>')
+    parts.append(f'<section><h2>🏆 摄影比赛</h2><ul>{rows or "<li class=muted>暂无比赛。</li>"}</ul>'
+                 '<p class="muted">投递前请重新核实截止日期、费用和付款方式。</p></section>')
 
     # events
     ev = "".join(
