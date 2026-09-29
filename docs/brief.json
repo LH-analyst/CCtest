@@ -1,9 +1,23 @@
 {
   "date": "2026-09-29",
   "weekday": "周二",
-  "generated_at": "2026-09-29T09:32+01:00",
-  "weather": null,
-  "shoot": null,
+  "generated_at": "2026-09-29T09:44+01:00",
+  "weather": {
+    "source": "Open-Meteo",
+    "sunrise": "06:57",
+    "sunset": "18:42",
+    "tmax": 25.2,
+    "tmin": 16.4,
+    "rain_max": 51
+  },
+  "shoot": {
+    "score": 97,
+    "sky": "partly",
+    "rain": 0,
+    "cloud": 28,
+    "vis": 19620.0,
+    "good": true
+  },
   "tasks": [
     {
       "id": 1,
@@ -73,7 +87,29 @@
   ],
   "events_soon": [],
   "route": {
-    "go": false,
-    "reason": "暂无天气数据，无法判断是否适合拍摄。"
+    "go": true,
+    "route": {
+      "id": "thames-barrier",
+      "name": "Thames Barrier & 河岸工业风",
+      "travel_min": 40,
+      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
+      "best_for": [
+        "cloudy",
+        "partly"
+      ],
+      "spots": [
+        "Thames Barrier Park",
+        "Barrier Gardens 河岸",
+        "Woolwich 渡口"
+      ],
+      "tip": "阴天情绪化工业影调，避开人群。"
+    },
+    "depart": "13:50",
+    "arrive": "14:30",
+    "spot_ready": "15:45",
+    "shoot_start": "16:00",
+    "shoot_end": "18:00",
+    "sunset": "18:42",
+    "buffer_min": 90
   }
 }
