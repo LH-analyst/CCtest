@@ -1,0 +1,10 @@
+{
+  "name": "",
+  "home": {"name": "Canning Town", "postcode": "E16", "lat": 51.5147, "lon": 0.0082},
+  "timezone": "Europe/London",
+  "best_light_window": {"start": "16:00", "end": "18:00"},
+  "leave_early_min": 90,
+  "leave_early_range_min": [60, 120],
+  "min_shoot_score": 55,
+  "notes": "16:00-18:00 是最佳拍摄光线，不是出门时间；需提前1-2小时出门，16:00前到达机位并踩点。"
+}

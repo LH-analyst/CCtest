@@ -1,0 +1,75 @@
+name: daily-brief
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 08:00 London during BST
+    - cron: "0 8 * * *"   # 08:00 London during GMT
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/**"]   # rebuild right after Claude updates the schedule
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Only run at 08:00 London for scheduled triggers
+        id: gate
+        run: |
+          hour=$(TZ=Europe/London date +%H)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$hour" != "08" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+
+      # Optional: refresh London events / competition news via web search.
+      # Enabled only when the ANTHROPIC_API_KEY repo secret exists.
+      - name: Refresh events with Claude (optional)
+        if: steps.gate.outputs.run == 'true' && github.event_name == 'schedule' && env.ANTHROPIC_API_KEY != ''
+        uses: anthropics/claude-code-action@v1
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Today is the current date in London. Web-search for photogenic events in London in the
+            next 14 days and any updates to photography competitions listed in data/competitions.json.
+            Update data/events.json (keep the existing schema, drop past events) and, only if a
+            deadline changed, data/competitions.json. Do not touch other files.
+          claude_args: --allowedTools "WebSearch,WebFetch,Read,Edit"
+
+      - name: Build brief
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/build_brief.py
+
+      - name: Commit generated brief
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "daily-brief[bot]"
+          git config user.email "daily-brief@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "chore: daily brief $(TZ=Europe/London date +%F)"
+          git push
+
+      - name: Push notification via ntfy (optional)
+        if: steps.gate.outputs.run == 'true' && env.NTFY_TOPIC != ''
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Title: 今日简报" -H "Click: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" \
+            -d "今日日程与拍摄路线已生成，点击查看" "https://ntfy.sh/$NTFY_TOPIC"

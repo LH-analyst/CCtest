@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-29",
+  "weekday": "周二",
+  "generated_at": "2026-09-29T09:32+01:00",
+  "weather": null,
+  "shoot": null,
+  "tasks": [
+    {
+      "id": 1,
+      "date": "2026-09-29",
+      "time": "10:00",
+      "duration_min": 120,
+      "title": "示例任务：整理GTV作品集",
+      "type": "gtv",
+      "done": false
+    }
+  ],
+  "gtv": {
+    "route": "Global Talent Visa (Arts & Culture - Photography)",
+    "endorsing_body": "Arts Council England",
+    "updated": "2026-09-29",
+    "stages": [
+      {
+        "id": "evidence",
+        "name": "整理申请材料/作品集",
+        "status": "in_progress",
+        "due": null,
+        "next_step": "待补充：请告诉我当前进度"
+      },
+      {
+        "id": "letters",
+        "name": "推荐信",
+        "status": "todo",
+        "due": null,
+        "next_step": "待补充"
+      },
+      {
+        "id": "endorsement",
+        "name": "提交 endorsement 申请",
+        "status": "todo",
+        "due": null,
+        "next_step": "待补充"
+      },
+      {
+        "id": "homeoffice",
+        "name": "Home Office 签证申请",
+        "status": "todo",
+        "due": null,
+        "next_step": "待补充"
+      }
+    ],
+    "percent": 12
+  },
+  "competitions": [
+    {
+      "name": "示例：请告诉我你关注的摄影比赛",
+      "deadline": "2026-10-31",
+      "theme": "",
+      "status": "watching",
+      "url": "",
+      "days_left": 32
+    }
+  ],
+  "events_today": [
+    {
+      "title": "示例活动",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "place": "Tower Bridge",
+      "note": "请让我搜索/添加伦敦活动",
+      "url": ""
+    }
+  ],
+  "events_soon": [],
+  "route": {
+    "go": false,
+    "reason": "暂无天气数据，无法判断是否适合拍摄。"
+  }
+}

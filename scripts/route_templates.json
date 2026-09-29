@@ -1,0 +1,23 @@
+[
+  {"id": "royal-docks", "name": "Royal Docks & Emirates Air Line", "travel_min": 15, "transport": "DLR/步行 Canning Town → Royal Victoria",
+   "best_for": ["clear", "partly"], "spots": ["Royal Victoria Dock 人行桥", "Emirates Air Line 缆车站", "Thames Barrier Park 方向的河岸"],
+   "tip": "西南向天际线与水面倒影，日落前最佳。"},
+  {"id": "canary-wharf", "name": "Canary Wharf 天际线与码头", "travel_min": 15, "transport": "Jubilee line Canning Town → Canary Wharf",
+   "best_for": ["clear", "partly", "cloudy"], "spots": ["Westferry Circus", "Cabot Square 倒影", "Crossrail Place 屋顶花园"],
+   "tip": "阴天玻璃幕墙反光柔和，适合建筑与街拍。"},
+  {"id": "greenwich", "name": "Greenwich 天文台山与河景", "travel_min": 35, "transport": "Jubilee → North Greenwich 转 Cable Car，或 DLR → Cutty Sark",
+   "best_for": ["clear", "partly"], "spots": ["Greenwich Park 天文台山顶", "Cutty Sark 河岸", "Old Royal Naval College"],
+   "tip": "山顶俯拍 Canary Wharf 日落，需提前占位。"},
+  {"id": "tower-bridge", "name": "Tower Bridge & Shad Thames", "travel_min": 35, "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
+   "best_for": ["clear", "partly", "cloudy"], "spots": ["Tower Bridge 北岸", "Shad Thames 街巷", "St Katharine Docks"],
+   "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"},
+  {"id": "thames-barrier", "name": "Thames Barrier & 河岸工业风", "travel_min": 40, "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
+   "best_for": ["cloudy", "partly"], "spots": ["Thames Barrier Park", "Barrier Gardens 河岸", "Woolwich 渡口"],
+   "tip": "阴天情绪化工业影调，避开人群。"},
+  {"id": "southbank", "name": "Southbank & Waterloo Bridge 日落", "travel_min": 35, "transport": "Jubilee → Waterloo/Southwark",
+   "best_for": ["clear", "partly"], "spots": ["Waterloo Bridge 中段", "Southbank 长廊", "Gabriel's Wharf"],
+   "tip": "东向看 City/Shard 的暖光，西向看日落剪影。"},
+  {"id": "indoor", "name": "室内备选：Tate Modern / Barbican / Saatchi", "travel_min": 35, "transport": "Jubilee / Elizabeth line",
+   "best_for": ["rain"], "spots": ["Tate Modern Turbine Hall", "Barbican Conservatory", "Design Museum"],
+   "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"}
+]

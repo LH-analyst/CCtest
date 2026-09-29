@@ -1,0 +1,6 @@
+{
+  "tasks": [
+    {"id": 1, "date": "2026-09-29", "time": "10:00", "duration_min": 120, "title": "示例任务：整理GTV作品集", "type": "gtv", "done": false}
+  ],
+  "daily": []
+}

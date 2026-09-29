@@ -1,0 +1,11 @@
+{
+  "route": "Global Talent Visa (Arts & Culture - Photography)",
+  "endorsing_body": "Arts Council England",
+  "updated": "2026-09-29",
+  "stages": [
+    {"id": "evidence", "name": "整理申请材料/作品集", "status": "in_progress", "due": null, "next_step": "待补充：请告诉我当前进度"},
+    {"id": "letters", "name": "推荐信", "status": "todo", "due": null, "next_step": "待补充"},
+    {"id": "endorsement", "name": "提交 endorsement 申请", "status": "todo", "due": null, "next_step": "待补充"},
+    {"id": "homeoffice", "name": "Home Office 签证申请", "status": "todo", "due": null, "next_step": "待补充"}
+  ]
+}
