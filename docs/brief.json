@@ -1,27 +1,27 @@
 {
-  "date": "2026-09-30",
-  "weekday": "周三",
-  "generated_at": "2026-09-30T08:06+01:00",
+  "date": "2026-10-01",
+  "weekday": "周四",
+  "generated_at": "2026-10-01T08:06+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "06:58",
-    "sunset": "18:40",
-    "tmax": 23.3,
-    "tmin": 17.9,
-    "rain_max": 69
+    "sunrise": "07:00",
+    "sunset": "18:37",
+    "tmax": 20.3,
+    "tmin": 14.9,
+    "rain_max": 55
   },
   "shoot": {
-    "score": 89,
-    "sky": "clear",
-    "rain": 2,
-    "cloud": 2,
-    "vis": 29900.0,
+    "score": 99,
+    "sky": "partly",
+    "rain": 0,
+    "cloud": 37,
+    "vis": 29780.0,
     "good": true
   },
   "tasks": [
     {
-      "id": 2,
-      "date": "2026-09-30",
+      "id": 3,
+      "date": "2026-10-01",
       "time": "09:00",
       "duration_min": 600,
       "title": "店里铺地板（全天）",
@@ -176,7 +176,7 @@
       "theme": "2026届已截止，结果10/9公布；关注下一届",
       "status": "watching",
       "url": "",
-      "days_left": 9
+      "days_left": 8
     }
   ],
   "competitions_submitted": [
@@ -244,6 +244,6 @@
   "events_soon": [],
   "route": {
     "go": false,
-    "reason": "13:55–18:00 与日程冲突：09:00 店里铺地板（全天）。"
+    "reason": "14:15–18:00 与日程冲突：09:00 店里铺地板（全天）。"
   }
 }
