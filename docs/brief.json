@@ -1,24 +1,34 @@
 {
   "date": "2026-10-02",
   "weekday": "周五",
-  "generated_at": "2026-10-02T08:06+01:00",
+  "generated_at": "2026-10-02T11:58+01:00",
   "weather": {
     "source": "Open-Meteo",
     "sunrise": "07:02",
     "sunset": "18:35",
     "tmax": 19.8,
-    "tmin": 13.7,
+    "tmin": 13.3,
     "rain_max": 4
   },
   "shoot": {
-    "score": 87,
+    "score": 90,
     "sky": "cloudy",
     "rain": 2,
-    "cloud": 84,
-    "vis": 33000.0,
+    "cloud": 72,
+    "vis": 34560.0,
     "good": true
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": 4,
+      "date": "2026-10-02",
+      "time": "15:00",
+      "duration_min": 180,
+      "title": "出门街拍：Canary Wharf（15:00出发，16:00-18:00拍摄，注意腰）",
+      "type": "shoot",
+      "done": false
+    }
+  ],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
@@ -231,32 +241,19 @@
     }
   ],
   "events_today": [],
-  "events_soon": [],
+  "events_soon": [
+    {
+      "title": "Japan Matsuri",
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "place": "Trafalgar Square",
+      "note": "10:00-20:00，免费，音乐/舞蹈/美食，适合街拍",
+      "url": "https://www.timeout.com/london/news/best-free-things-to-do-october-2-4-2026-100126",
+      "days_left": 2
+    }
+  ],
   "route": {
-    "go": true,
-    "route": {
-      "id": "tower-bridge",
-      "name": "Tower Bridge & Shad Thames",
-      "travel_min": 35,
-      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
-      "best_for": [
-        "clear",
-        "partly",
-        "cloudy"
-      ],
-      "spots": [
-        "Tower Bridge 北岸",
-        "Shad Thames 街巷",
-        "St Katharine Docks"
-      ],
-      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
-    },
-    "depart": "13:55",
-    "arrive": "14:30",
-    "spot_ready": "15:45",
-    "shoot_start": "16:00",
-    "shoot_end": "18:00",
-    "sunset": "18:35",
-    "buffer_min": 90
+    "go": false,
+    "reason": "13:55–18:00 与日程冲突：15:00 出门街拍：Canary Wharf（15:00出发，16:00-18:00拍摄，注意腰）。"
   }
 }
