@@ -2,39 +2,175 @@
   "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
   "endorsing_body": "Arts Council England",
   "source": "Google Drive 文档「GTV申请进度」（同步时按标题搜索）",
-  "synced": "2026-09-29",
+  "synced": "2026-10-03",
   "tracks": [
-    {"id": "A", "name": "作品深化", "items": [
-      {"name": "41张街头照片按主题分类", "status": "done"},
-      {"name": "主线确定：静观/日常瞬间", "status": "done"},
-      {"name": "8张精选候选清单", "status": "done"},
-      {"name": "系列定期复盘（每6-8周）", "status": "todo", "note": "待启动"},
-      {"name": "补拍计划", "status": "todo", "note": "聚焦伦敦或跨地域，待讨论"}
-    ]},
-    {"id": "B", "name": "奖项与曝光", "items": [
-      {"name": "LensCulture Street Photography Awards 2026", "status": "submitted", "note": "等结果"},
-      {"name": "AAP Magazine Street 2026", "status": "submitted", "note": "已投递，结果待公布"},
-      {"name": "RPS ARPS Distinction", "status": "todo", "note": "待评估：15张连贯系列 + Statement of Intent"},
-      {"name": "Siena International Photo Awards", "status": "watching", "note": "2026届已截止，等2027届公告"},
-      {"name": "Circulation(s)", "status": "watching", "note": "下一届2027年春季"},
-      {"name": "Miami Street Photography Festival", "status": "watching", "note": "状态不明朗，需查官网"}
-    ]},
-    {"id": "C", "name": "人脉与推荐人", "items": [
-      {"name": "加入RPS", "status": "done"},
-      {"name": "参加RPS线下活动", "status": "in_progress"},
-      {"name": "确定3位推荐人人选", "status": "todo", "note": "街头摄影权威 / 电影行业 / 发表或策展"},
-      {"name": "推荐人邀请及背景材料包", "status": "todo"}
-    ]},
-    {"id": "D", "name": "网站", "items": [
-      {"name": "四页网站搭建", "status": "done"},
-      {"name": "部署上线（域名+托管）", "status": "todo"},
-      {"name": "替换占位文案（首页、About）", "status": "todo"}
-    ]},
-    {"id": "E", "name": "申请材料", "items": [
-      {"name": "CV 草稿框架", "status": "done", "note": "需填入真实履历"},
-      {"name": "个人陈述完整初稿", "status": "todo"},
-      {"name": "Evidence Portfolio 10件证据说明", "status": "todo", "note": "依赖 Track B 进展"},
-      {"name": "推荐信跟进记录", "status": "todo"}
-    ]}
+    {
+      "id": "A",
+      "name": "作品深化",
+      "items": [
+        {
+          "name": "41张街头照片按主题分类",
+          "status": "done"
+        },
+        {
+          "name": "主线确定：静观/日常瞬间",
+          "status": "done"
+        },
+        {
+          "name": "8张精选候选清单",
+          "status": "done"
+        },
+        {
+          "name": "系列定期复盘（每6-8周）",
+          "status": "todo",
+          "note": "待启动"
+        },
+        {
+          "name": "补拍计划",
+          "status": "todo",
+          "note": "聚焦伦敦或跨地域，待讨论"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "奖项与曝光",
+      "items": [
+        {
+          "name": "LensCulture Street Photography Awards 2026",
+          "status": "submitted",
+          "note": "等结果"
+        },
+        {
+          "name": "AAP Magazine Street 2026",
+          "status": "submitted",
+          "note": "已投递，结果待公布"
+        },
+        {
+          "name": "RPS ARPS Distinction",
+          "status": "todo",
+          "note": "待评估：15张连贯系列 + Statement of Intent"
+        },
+        {
+          "name": "Siena International Photo Awards",
+          "status": "watching",
+          "note": "2026届已截止，等2027届公告"
+        },
+        {
+          "name": "Circulation(s)",
+          "status": "watching",
+          "note": "下一届2027年春季"
+        },
+        {
+          "name": "Miami Street Photography Festival",
+          "status": "watching",
+          "note": "状态不明朗，需查官网"
+        },
+        {
+          "name": "整理朋友分享的 Open Call 清单（220条）",
+          "status": "done"
+        },
+        {
+          "name": "Exibart Street Photography Contest",
+          "status": "todo",
+          "note": "10/15 截止，街头专项，优先投"
+        },
+        {
+          "name": "Fotografiska Emerging Global",
+          "status": "todo",
+          "note": "10/15 截止"
+        },
+        {
+          "name": "Raccont'Arti Photography Award",
+          "status": "todo",
+          "note": "10/15 截止，需贴题（缺席的影像），有合适作品再投"
+        },
+        {
+          "name": "RPS International Photography Exhibition 168",
+          "status": "todo",
+          "note": "12/15 截止"
+        },
+        {
+          "name": "Sony World Photography Awards 2027 / Siena 2027",
+          "status": "todo",
+          "note": "2027年1月，截止日待官网确认"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "人脉与推荐人",
+      "items": [
+        {
+          "name": "加入RPS",
+          "status": "done"
+        },
+        {
+          "name": "参加RPS线下活动",
+          "status": "in_progress"
+        },
+        {
+          "name": "确定3位推荐人人选",
+          "status": "todo",
+          "note": "街头摄影权威 / 电影行业 / 发表或策展"
+        },
+        {
+          "name": "推荐人邀请及背景材料包",
+          "status": "todo"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "网站",
+      "items": [
+        {
+          "name": "四页网站搭建",
+          "status": "done"
+        },
+        {
+          "name": "部署上线（Cloudflare Pages）",
+          "status": "done",
+          "note": "改动后需重新上传"
+        },
+        {
+          "name": "自定义域名绑定",
+          "status": "in_progress",
+          "note": "等 DNS/HTTPS 生效，待确认能正常打开"
+        },
+        {
+          "name": "网站文案替换为真实内容",
+          "status": "done"
+        },
+        {
+          "name": "About 页补短片/商业摄影经历；核对简介措辞",
+          "status": "todo"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "申请材料",
+      "items": [
+        {
+          "name": "CV 草稿框架",
+          "status": "done",
+          "note": "需填入真实履历"
+        },
+        {
+          "name": "个人陈述完整初稿",
+          "status": "todo"
+        },
+        {
+          "name": "Evidence Portfolio 10件证据说明",
+          "status": "todo",
+          "note": "依赖 Track B 进展"
+        },
+        {
+          "name": "推荐信跟进记录",
+          "status": "todo"
+        }
+      ]
+    }
   ]
 }

@@ -19,7 +19,7 @@
     {
       "name": "Siena International Photo Awards",
       "deadline": null,
-      "theme": "2027届待公告",
+      "theme": "2027届公告待官网确认（上届约10/1开放、次年1月中截止）",
       "status": "watching",
       "url": "",
       "result_date": null
@@ -56,6 +56,63 @@
       "status": "watching",
       "url": "",
       "rolling": true
+    },
+    {
+      "name": "Exibart Street Photography Contest",
+      "deadline": "2026-10-15",
+      "result_date": null,
+      "theme": "街头专项，优先投",
+      "status": "preparing",
+      "url": ""
+    },
+    {
+      "name": "Fotografiska Emerging Global",
+      "deadline": "2026-10-15",
+      "result_date": null,
+      "theme": "",
+      "status": "preparing",
+      "url": ""
+    },
+    {
+      "name": "Raccont'Arti Photography Award",
+      "deadline": "2026-10-15",
+      "result_date": null,
+      "theme": "主题“缺席的影像”，需贴题",
+      "status": "preparing",
+      "url": ""
+    },
+    {
+      "name": "RPS International Photography Exhibition 168",
+      "deadline": "2026-12-15",
+      "result_date": null,
+      "theme": "不限题材，入选有巡展",
+      "status": "preparing",
+      "url": ""
+    },
+    {
+      "name": "Sony World Photography Awards 2027",
+      "deadline": "2027-01-12",
+      "result_date": null,
+      "theme": "Series 组截止；Single Image 截止日待确认",
+      "status": "preparing",
+      "url": ""
+    },
+    {
+      "name": "Life Framer 月度赛",
+      "deadline": null,
+      "result_date": null,
+      "theme": "滚动开放",
+      "status": "watching",
+      "url": "",
+      "rolling": true
+    },
+    {
+      "name": "韩国影展（JEJU / DongGang / Yeoju）",
+      "deadline": null,
+      "result_date": null,
+      "theme": "2026届多已截止，关注2027届",
+      "status": "watching",
+      "url": ""
     }
   ]
 }
