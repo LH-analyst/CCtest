@@ -1,31 +1,31 @@
 {
-  "date": "2026-10-02",
-  "weekday": "周五",
-  "generated_at": "2026-10-02T11:58+01:00",
+  "date": "2026-10-03",
+  "weekday": "周六",
+  "generated_at": "2026-10-03T08:10+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:02",
-    "sunset": "18:35",
-    "tmax": 19.8,
-    "tmin": 13.3,
-    "rain_max": 4
+    "sunrise": "07:03",
+    "sunset": "18:33",
+    "tmax": 20.7,
+    "tmin": 13.5,
+    "rain_max": 8
   },
   "shoot": {
-    "score": 90,
+    "score": 82,
     "sky": "cloudy",
-    "rain": 2,
-    "cloud": 72,
-    "vis": 34560.0,
+    "rain": 6,
+    "cloud": 92,
+    "vis": 14380.0,
     "good": true
   },
   "tasks": [
     {
-      "id": 4,
-      "date": "2026-10-02",
-      "time": "15:00",
-      "duration_min": 180,
-      "title": "出门街拍：Canary Wharf（15:00出发，16:00-18:00拍摄，注意腰）",
-      "type": "shoot",
+      "id": 5,
+      "date": "2026-10-03",
+      "time": "09:00",
+      "duration_min": 600,
+      "title": "店里继续铺地板（全天）",
+      "type": "work",
       "done": false
     }
   ],
@@ -33,7 +33,7 @@
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
     "source": "Google Drive 文档「GTV申请进度」（同步时按标题搜索）",
-    "synced": "2026-09-29",
+    "synced": "2026-10-03",
     "tracks": [
       {
         "id": "A",
@@ -96,6 +96,35 @@
             "name": "Miami Street Photography Festival",
             "status": "watching",
             "note": "状态不明朗，需查官网"
+          },
+          {
+            "name": "整理朋友分享的 Open Call 清单（220条）",
+            "status": "done"
+          },
+          {
+            "name": "Exibart Street Photography Contest",
+            "status": "todo",
+            "note": "10/15 截止，街头专项，优先投"
+          },
+          {
+            "name": "Fotografiska Emerging Global",
+            "status": "todo",
+            "note": "10/15 截止"
+          },
+          {
+            "name": "Raccont'Arti Photography Award",
+            "status": "todo",
+            "note": "10/15 截止，需贴题（缺席的影像），有合适作品再投"
+          },
+          {
+            "name": "RPS International Photography Exhibition 168",
+            "status": "todo",
+            "note": "12/15 截止"
+          },
+          {
+            "name": "Sony World Photography Awards 2027 / Siena 2027",
+            "status": "todo",
+            "note": "2027年1月，截止日待官网确认"
           }
         ]
       },
@@ -131,11 +160,21 @@
             "status": "done"
           },
           {
-            "name": "部署上线（域名+托管）",
-            "status": "todo"
+            "name": "部署上线（Cloudflare Pages）",
+            "status": "done",
+            "note": "改动后需重新上传"
           },
           {
-            "name": "替换占位文案（首页、About）",
+            "name": "自定义域名绑定",
+            "status": "in_progress",
+            "note": "等 DNS/HTTPS 生效，待确认能正常打开"
+          },
+          {
+            "name": "网站文案替换为真实内容",
+            "status": "done"
+          },
+          {
+            "name": "About 页补短片/商业摄影经历；核对简介措辞",
             "status": "todo"
           }
         ]
@@ -167,7 +206,44 @@
     ],
     "percent": 43
   },
-  "competitions": [],
+  "competitions": [
+    {
+      "name": "Exibart Street Photography Contest",
+      "deadline": "2026-10-15",
+      "result_date": null,
+      "theme": "街头专项，优先投",
+      "status": "preparing",
+      "url": "",
+      "days_left": 12
+    },
+    {
+      "name": "Fotografiska Emerging Global",
+      "deadline": "2026-10-15",
+      "result_date": null,
+      "theme": "",
+      "status": "preparing",
+      "url": "",
+      "days_left": 12
+    },
+    {
+      "name": "Raccont'Arti Photography Award",
+      "deadline": "2026-10-15",
+      "result_date": null,
+      "theme": "主题“缺席的影像”，需贴题",
+      "status": "preparing",
+      "url": "",
+      "days_left": 12
+    },
+    {
+      "name": "RPS International Photography Exhibition 168",
+      "deadline": "2026-12-15",
+      "result_date": null,
+      "theme": "不限题材，入选有巡展",
+      "status": "preparing",
+      "url": "",
+      "days_left": 73
+    }
+  ],
   "competition_results": [
     {
       "name": "Eyeshot Open Call",
@@ -176,7 +252,7 @@
       "theme": "2026届已截止，结果10/9公布；关注下一届",
       "status": "watching",
       "url": "",
-      "days_left": 7
+      "days_left": 6
     }
   ],
   "competitions_submitted": [
@@ -201,7 +277,7 @@
     {
       "name": "Siena International Photo Awards",
       "deadline": null,
-      "theme": "2027届待公告",
+      "theme": "2027届公告待官网确认（上届约10/1开放、次年1月中截止）",
       "status": "watching",
       "url": "",
       "result_date": null
@@ -238,6 +314,23 @@
       "status": "watching",
       "url": "",
       "rolling": true
+    },
+    {
+      "name": "Life Framer 月度赛",
+      "deadline": null,
+      "result_date": null,
+      "theme": "滚动开放",
+      "status": "watching",
+      "url": "",
+      "rolling": true
+    },
+    {
+      "name": "韩国影展（JEJU / DongGang / Yeoju）",
+      "deadline": null,
+      "result_date": null,
+      "theme": "2026届多已截止，关注2027届",
+      "status": "watching",
+      "url": ""
     }
   ],
   "events_today": [],
@@ -249,11 +342,11 @@
       "place": "Trafalgar Square",
       "note": "10:00-20:00，免费，音乐/舞蹈/美食，适合街拍",
       "url": "https://www.timeout.com/london/news/best-free-things-to-do-october-2-4-2026-100126",
-      "days_left": 2
+      "days_left": 1
     }
   ],
   "route": {
     "go": false,
-    "reason": "13:55–18:00 与日程冲突：15:00 出门街拍：Canary Wharf（15:00出发，16:00-18:00拍摄，注意腰）。"
+    "reason": "13:50–18:00 与日程冲突：09:00 店里继续铺地板（全天）。"
   }
 }
