@@ -50,8 +50,17 @@
       "date": "2026-10-04",
       "time": null,
       "duration_min": 0,
-      "title": "看活动：Japan Matsuri（Trafalgar Square，10:00-20:00，具体时间待定）",
+      "title": "看活动：Japan Matsuri（Trafalgar Square，10:00-20:00，海报设计之后去，具体时间待定）",
       "type": "event",
+      "done": false
+    },
+    {
+      "id": 7,
+      "date": "2026-10-04",
+      "time": "09:00",
+      "duration_min": 180,
+      "title": "起床后做刮刮乐 poster 设计（时长暂定3小时）",
+      "type": "work",
       "done": false
     }
   ],
