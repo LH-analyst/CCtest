@@ -2,7 +2,7 @@
   "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
   "endorsing_body": "Arts Council England",
   "source": "Google Drive 文档「GTV申请进度」（同步时按标题搜索）",
-  "synced": "2026-10-03",
+  "synced": "2026-10-04",
   "tracks": [
     {
       "id": "A",
@@ -44,17 +44,37 @@
         {
           "name": "AAP Magazine Street 2026",
           "status": "submitted",
-          "note": "已投递，结果待公布"
+          "note": "结果待公布"
+        },
+        {
+          "name": "RPS International Photography Exhibition 168",
+          "status": "submitted",
+          "note": "已提交，12/15 截止"
+        },
+        {
+          "name": "Raccont'Arti Photography Award",
+          "status": "in_progress",
+          "note": "10/15 截止；需10–30张完整项目，已选5张；10/7前起草说明，10/13前提交"
+        },
+        {
+          "name": "Sony World Photography Awards 2027",
+          "status": "todo",
+          "note": "单张约1/5、系列1/12，待官网核对"
+        },
+        {
+          "name": "Siena International Photo Awards 2027",
+          "status": "watching",
+          "note": "等2027届公告"
+        },
+        {
+          "name": "DongGang International Photo Festival",
+          "status": "watching",
+          "note": "明年关注"
         },
         {
           "name": "RPS ARPS Distinction",
           "status": "todo",
           "note": "待评估：15张连贯系列 + Statement of Intent"
-        },
-        {
-          "name": "Siena International Photo Awards",
-          "status": "watching",
-          "note": "2026届已截止，等2027届公告"
         },
         {
           "name": "Circulation(s)",
@@ -67,33 +87,9 @@
           "note": "状态不明朗，需查官网"
         },
         {
-          "name": "整理朋友分享的 Open Call 清单（220条）",
-          "status": "done"
-        },
-        {
-          "name": "Exibart Street Photography Contest",
-          "status": "todo",
-          "note": "10/15 截止，街头专项，优先投"
-        },
-        {
-          "name": "Fotografiska Emerging Global",
-          "status": "todo",
-          "note": "10/15 截止"
-        },
-        {
-          "name": "Raccont'Arti Photography Award",
-          "status": "todo",
-          "note": "10/15 截止，需贴题（缺席的影像），有合适作品再投"
-        },
-        {
-          "name": "RPS International Photography Exhibition 168",
-          "status": "todo",
-          "note": "12/15 截止"
-        },
-        {
-          "name": "Sony World Photography Awards 2027 / Siena 2027",
-          "status": "todo",
-          "note": "2027年1月，截止日待官网确认"
+          "name": "整理 Open Call 清单并确定筛选标准",
+          "status": "done",
+          "note": "机构≥5年、有实体展览、非商业"
         }
       ]
     },
@@ -134,16 +130,20 @@
           "note": "改动后需重新上传"
         },
         {
-          "name": "自定义域名绑定",
-          "status": "in_progress",
-          "note": "等 DNS/HTTPS 生效，待确认能正常打开"
-        },
-        {
-          "name": "网站文案替换为真实内容",
+          "name": "网站文案改为专业街头摄影表述",
           "status": "done"
         },
         {
-          "name": "About 页补短片/商业摄影经历；核对简介措辞",
+          "name": "自定义域名绑定",
+          "status": "in_progress",
+          "note": "待确认能正常打开"
+        },
+        {
+          "name": "确认手机端样式已刷新",
+          "status": "in_progress"
+        },
+        {
+          "name": "核对简介措辞（黑白/彩色）",
           "status": "todo"
         }
       ]

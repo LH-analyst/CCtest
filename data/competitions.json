@@ -58,26 +58,10 @@
       "rolling": true
     },
     {
-      "name": "Exibart Street Photography Contest",
-      "deadline": "2026-10-15",
-      "result_date": null,
-      "theme": "街头专项，优先投",
-      "status": "preparing",
-      "url": ""
-    },
-    {
-      "name": "Fotografiska Emerging Global",
-      "deadline": "2026-10-15",
-      "result_date": null,
-      "theme": "",
-      "status": "preparing",
-      "url": ""
-    },
-    {
       "name": "Raccont'Arti Photography Award",
       "deadline": "2026-10-15",
       "result_date": null,
-      "theme": "主题“缺席的影像”，需贴题",
+      "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
       "status": "preparing",
       "url": ""
     },
@@ -85,32 +69,23 @@
       "name": "RPS International Photography Exhibition 168",
       "deadline": "2026-12-15",
       "result_date": null,
-      "theme": "不限题材，入选有巡展",
-      "status": "preparing",
+      "theme": "已提交，12/15 截止；入选有巡展",
+      "status": "submitted",
       "url": ""
     },
     {
       "name": "Sony World Photography Awards 2027",
-      "deadline": "2027-01-12",
+      "deadline": "2027-01-05",
       "result_date": null,
-      "theme": "Series 组截止；Single Image 截止日待确认",
+      "theme": "单张约1/5、系列1/12，待官网核对",
       "status": "preparing",
       "url": ""
     },
     {
-      "name": "Life Framer 月度赛",
+      "name": "DongGang International Photo Festival",
       "deadline": null,
       "result_date": null,
-      "theme": "滚动开放",
-      "status": "watching",
-      "url": "",
-      "rolling": true
-    },
-    {
-      "name": "韩国影展（JEJU / DongGang / Yeoju）",
-      "deadline": null,
-      "result_date": null,
-      "theme": "2026届多已截止，关注2027届",
+      "theme": "2026届已截止，明年关注",
       "status": "watching",
       "url": ""
     }
