@@ -1,31 +1,40 @@
 {
-  "date": "2026-10-03",
-  "weekday": "周六",
-  "generated_at": "2026-10-03T20:32+01:00",
+  "date": "2026-10-04",
+  "weekday": "周日",
+  "generated_at": "2026-10-04T07:24+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:03",
-    "sunset": "18:33",
-    "tmax": 20.1,
-    "tmin": 13.3,
-    "rain_max": 10
+    "sunrise": "07:05",
+    "sunset": "18:30",
+    "tmax": 21.6,
+    "tmin": 13.2,
+    "rain_max": 0
   },
   "shoot": {
-    "score": 83,
-    "sky": "cloudy",
-    "rain": 2,
-    "cloud": 100,
-    "vis": 17940.0,
+    "score": 94,
+    "sky": "clear",
+    "rain": 0,
+    "cloud": 17,
+    "vis": 19340.0,
     "good": true
   },
   "tasks": [
     {
-      "id": 5,
-      "date": "2026-10-03",
+      "id": 7,
+      "date": "2026-10-04",
       "time": "09:00",
-      "duration_min": 600,
-      "title": "店里继续铺地板（全天）",
+      "duration_min": 180,
+      "title": "起床后做刮刮乐 poster 设计（时长暂定3小时）",
       "type": "work",
+      "done": false
+    },
+    {
+      "id": 6,
+      "date": "2026-10-04",
+      "time": null,
+      "duration_min": 0,
+      "title": "看活动：Japan Matsuri（Trafalgar Square，10:00-20:00，海报设计之后去，具体时间待定）",
+      "type": "event",
       "done": false
     }
   ],
@@ -33,7 +42,7 @@
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
     "source": "Google Drive 文档「GTV申请进度」（同步时按标题搜索）",
-    "synced": "2026-10-03",
+    "synced": "2026-10-04",
     "tracks": [
       {
         "id": "A",
@@ -75,17 +84,37 @@
           {
             "name": "AAP Magazine Street 2026",
             "status": "submitted",
-            "note": "已投递，结果待公布"
+            "note": "结果待公布"
+          },
+          {
+            "name": "RPS International Photography Exhibition 168",
+            "status": "submitted",
+            "note": "已提交，12/15 截止"
+          },
+          {
+            "name": "Raccont'Arti Photography Award",
+            "status": "in_progress",
+            "note": "10/15 截止；需10–30张完整项目，已选5张；10/7前起草说明，10/13前提交"
+          },
+          {
+            "name": "Sony World Photography Awards 2027",
+            "status": "todo",
+            "note": "单张约1/5、系列1/12，待官网核对"
+          },
+          {
+            "name": "Siena International Photo Awards 2027",
+            "status": "watching",
+            "note": "等2027届公告"
+          },
+          {
+            "name": "DongGang International Photo Festival",
+            "status": "watching",
+            "note": "明年关注"
           },
           {
             "name": "RPS ARPS Distinction",
             "status": "todo",
             "note": "待评估：15张连贯系列 + Statement of Intent"
-          },
-          {
-            "name": "Siena International Photo Awards",
-            "status": "watching",
-            "note": "2026届已截止，等2027届公告"
           },
           {
             "name": "Circulation(s)",
@@ -98,33 +127,9 @@
             "note": "状态不明朗，需查官网"
           },
           {
-            "name": "整理朋友分享的 Open Call 清单（220条）",
-            "status": "done"
-          },
-          {
-            "name": "Exibart Street Photography Contest",
-            "status": "todo",
-            "note": "10/15 截止，街头专项，优先投"
-          },
-          {
-            "name": "Fotografiska Emerging Global",
-            "status": "todo",
-            "note": "10/15 截止"
-          },
-          {
-            "name": "Raccont'Arti Photography Award",
-            "status": "todo",
-            "note": "10/15 截止，需贴题（缺席的影像），有合适作品再投"
-          },
-          {
-            "name": "RPS International Photography Exhibition 168",
-            "status": "todo",
-            "note": "12/15 截止"
-          },
-          {
-            "name": "Sony World Photography Awards 2027 / Siena 2027",
-            "status": "todo",
-            "note": "2027年1月，截止日待官网确认"
+            "name": "整理 Open Call 清单并确定筛选标准",
+            "status": "done",
+            "note": "机构≥5年、有实体展览、非商业"
           }
         ]
       },
@@ -165,16 +170,20 @@
             "note": "改动后需重新上传"
           },
           {
-            "name": "自定义域名绑定",
-            "status": "in_progress",
-            "note": "等 DNS/HTTPS 生效，待确认能正常打开"
-          },
-          {
-            "name": "网站文案替换为真实内容",
+            "name": "网站文案改为专业街头摄影表述",
             "status": "done"
           },
           {
-            "name": "About 页补短片/商业摄影经历；核对简介措辞",
+            "name": "自定义域名绑定",
+            "status": "in_progress",
+            "note": "待确认能正常打开"
+          },
+          {
+            "name": "确认手机端样式已刷新",
+            "status": "in_progress"
+          },
+          {
+            "name": "核对简介措辞（黑白/彩色）",
             "status": "todo"
           }
         ]
@@ -204,44 +213,17 @@
         ]
       }
     ],
-    "percent": 43
+    "percent": 52
   },
   "competitions": [
-    {
-      "name": "Exibart Street Photography Contest",
-      "deadline": "2026-10-15",
-      "result_date": null,
-      "theme": "街头专项，优先投",
-      "status": "preparing",
-      "url": "",
-      "days_left": 12
-    },
-    {
-      "name": "Fotografiska Emerging Global",
-      "deadline": "2026-10-15",
-      "result_date": null,
-      "theme": "",
-      "status": "preparing",
-      "url": "",
-      "days_left": 12
-    },
     {
       "name": "Raccont'Arti Photography Award",
       "deadline": "2026-10-15",
       "result_date": null,
-      "theme": "主题“缺席的影像”，需贴题",
+      "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
       "status": "preparing",
       "url": "",
-      "days_left": 12
-    },
-    {
-      "name": "RPS International Photography Exhibition 168",
-      "deadline": "2026-12-15",
-      "result_date": null,
-      "theme": "不限题材，入选有巡展",
-      "status": "preparing",
-      "url": "",
-      "days_left": 73
+      "days_left": 11
     }
   ],
   "competition_results": [
@@ -252,7 +234,7 @@
       "theme": "2026届已截止，结果10/9公布；关注下一届",
       "status": "watching",
       "url": "",
-      "days_left": 6
+      "days_left": 5
     }
   ],
   "competitions_submitted": [
@@ -271,6 +253,14 @@
       "status": "submitted",
       "url": "",
       "result_date": null
+    },
+    {
+      "name": "RPS International Photography Exhibition 168",
+      "deadline": "2026-12-15",
+      "result_date": null,
+      "theme": "已提交，12/15 截止；入选有巡展",
+      "status": "submitted",
+      "url": ""
     }
   ],
   "competitions_watching": [
@@ -316,37 +306,50 @@
       "rolling": true
     },
     {
-      "name": "Life Framer 月度赛",
+      "name": "DongGang International Photo Festival",
       "deadline": null,
       "result_date": null,
-      "theme": "滚动开放",
-      "status": "watching",
-      "url": "",
-      "rolling": true
-    },
-    {
-      "name": "韩国影展（JEJU / DongGang / Yeoju）",
-      "deadline": null,
-      "result_date": null,
-      "theme": "2026届多已截止，关注2027届",
+      "theme": "2026届已截止，明年关注",
       "status": "watching",
       "url": ""
     }
   ],
-  "events_today": [],
-  "events_soon": [
+  "events_today": [
     {
       "title": "Japan Matsuri",
       "start": "2026-10-04",
       "end": "2026-10-04",
       "place": "Trafalgar Square",
       "note": "10:00-20:00，免费，音乐/舞蹈/美食，适合街拍",
-      "url": "https://www.timeout.com/london/news/best-free-things-to-do-october-2-4-2026-100126",
-      "days_left": 1
+      "url": "https://www.timeout.com/london/news/best-free-things-to-do-october-2-4-2026-100126"
     }
   ],
+  "events_soon": [],
   "route": {
-    "go": false,
-    "reason": "13:50–18:00 与日程冲突：09:00 店里继续铺地板（全天）。"
+    "go": true,
+    "route": {
+      "id": "tower-bridge",
+      "name": "Tower Bridge & Shad Thames",
+      "travel_min": 35,
+      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
+      "best_for": [
+        "clear",
+        "partly",
+        "cloudy"
+      ],
+      "spots": [
+        "Tower Bridge 北岸",
+        "Shad Thames 街巷",
+        "St Katharine Docks"
+      ],
+      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
+    },
+    "depart": "13:55",
+    "arrive": "14:30",
+    "spot_ready": "15:45",
+    "shoot_start": "16:00",
+    "shoot_end": "18:00",
+    "sunset": "18:30",
+    "buffer_min": 90
   }
 }
