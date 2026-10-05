@@ -1,43 +1,24 @@
 {
-  "date": "2026-10-04",
-  "weekday": "周日",
-  "generated_at": "2026-10-04T07:24+01:00",
+  "date": "2026-10-05",
+  "weekday": "周一",
+  "generated_at": "2026-10-05T08:10+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:05",
-    "sunset": "18:30",
-    "tmax": 21.6,
-    "tmin": 13.2,
+    "sunrise": "07:07",
+    "sunset": "18:28",
+    "tmax": 21.9,
+    "tmin": 13.4,
     "rain_max": 0
   },
   "shoot": {
-    "score": 94,
-    "sky": "clear",
+    "score": 96,
+    "sky": "partly",
     "rain": 0,
-    "cloud": 17,
-    "vis": 19340.0,
+    "cloud": 54,
+    "vis": 21600.0,
     "good": true
   },
-  "tasks": [
-    {
-      "id": 7,
-      "date": "2026-10-04",
-      "time": "09:00",
-      "duration_min": 180,
-      "title": "起床后做刮刮乐 poster 设计（时长暂定3小时）",
-      "type": "work",
-      "done": false
-    },
-    {
-      "id": 6,
-      "date": "2026-10-04",
-      "time": null,
-      "duration_min": 0,
-      "title": "看活动：Japan Matsuri（Trafalgar Square，10:00-20:00，海报设计之后去，具体时间待定）",
-      "type": "event",
-      "done": false
-    }
-  ],
+  "tasks": [],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
@@ -223,7 +204,7 @@
       "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
       "status": "preparing",
       "url": "",
-      "days_left": 11
+      "days_left": 10
     }
   ],
   "competition_results": [
@@ -234,7 +215,7 @@
       "theme": "2026届已截止，结果10/9公布；关注下一届",
       "status": "watching",
       "url": "",
-      "days_left": 5
+      "days_left": 4
     }
   ],
   "competitions_submitted": [
@@ -314,42 +295,32 @@
       "url": ""
     }
   ],
-  "events_today": [
-    {
-      "title": "Japan Matsuri",
-      "start": "2026-10-04",
-      "end": "2026-10-04",
-      "place": "Trafalgar Square",
-      "note": "10:00-20:00，免费，音乐/舞蹈/美食，适合街拍",
-      "url": "https://www.timeout.com/london/news/best-free-things-to-do-october-2-4-2026-100126"
-    }
-  ],
+  "events_today": [],
   "events_soon": [],
   "route": {
     "go": true,
     "route": {
-      "id": "tower-bridge",
-      "name": "Tower Bridge & Shad Thames",
-      "travel_min": 35,
-      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
+      "id": "thames-barrier",
+      "name": "Thames Barrier & 河岸工业风",
+      "travel_min": 40,
+      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
       "best_for": [
-        "clear",
-        "partly",
-        "cloudy"
+        "cloudy",
+        "partly"
       ],
       "spots": [
-        "Tower Bridge 北岸",
-        "Shad Thames 街巷",
-        "St Katharine Docks"
+        "Thames Barrier Park",
+        "Barrier Gardens 河岸",
+        "Woolwich 渡口"
       ],
-      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
+      "tip": "阴天情绪化工业影调，避开人群。"
     },
-    "depart": "13:55",
+    "depart": "13:50",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "18:30",
+    "sunset": "18:28",
     "buffer_min": 90
   }
 }
