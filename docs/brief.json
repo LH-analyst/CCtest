@@ -1,24 +1,34 @@
 {
-  "date": "2026-10-06",
-  "weekday": "周二",
-  "generated_at": "2026-10-06T08:06+01:00",
+  "date": "2026-10-07",
+  "weekday": "周三",
+  "generated_at": "2026-10-07T08:07+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:08",
-    "sunset": "18:26",
-    "tmax": 21.6,
-    "tmin": 14.7,
-    "rain_max": 8
+    "sunrise": "07:10",
+    "sunset": "18:24",
+    "tmax": 17.1,
+    "tmin": 11.1,
+    "rain_max": 100
   },
   "shoot": {
-    "score": 90,
-    "sky": "clear",
-    "rain": 0,
-    "cloud": 0,
-    "vis": 12640.0,
-    "good": true
+    "score": 8,
+    "sky": "rain",
+    "rain": 96,
+    "cloud": 100,
+    "vis": 11920.0,
+    "good": false
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": 8,
+      "date": "2026-10-07",
+      "time": null,
+      "duration_min": 0,
+      "title": "Raccont'Arti：起草作品说明（登录 Picter 确认字数和文件规格）",
+      "type": "competition",
+      "done": false
+    }
+  ],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
@@ -204,7 +214,16 @@
       "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
       "status": "preparing",
       "url": "",
-      "days_left": 9
+      "days_left": 8
+    },
+    {
+      "name": "Sony World Photography Awards 2027",
+      "deadline": "2027-01-05",
+      "result_date": null,
+      "theme": "单张约1/5、系列1/12，待官网核对",
+      "status": "preparing",
+      "url": "",
+      "days_left": 90
     }
   ],
   "competition_results": [
@@ -215,7 +234,7 @@
       "theme": "2026届已截止，结果10/9公布；关注下一届",
       "status": "watching",
       "url": "",
-      "days_left": 3
+      "days_left": 2
     }
   ],
   "competitions_submitted": [
@@ -298,29 +317,22 @@
   "events_today": [],
   "events_soon": [],
   "route": {
-    "go": true,
-    "route": {
-      "id": "royal-docks",
-      "name": "Royal Docks & Emirates Air Line",
-      "travel_min": 15,
-      "transport": "DLR/步行 Canning Town → Royal Victoria",
+    "go": false,
+    "reason": "下雨概率高（评分 8），建议改为室内或看展。",
+    "indoor": {
+      "id": "indoor",
+      "name": "室内备选：Tate Modern / Barbican / Saatchi",
+      "travel_min": 35,
+      "transport": "Jubilee / Elizabeth line",
       "best_for": [
-        "clear",
-        "partly"
+        "rain"
       ],
       "spots": [
-        "Royal Victoria Dock 人行桥",
-        "Emirates Air Line 缆车站",
-        "Thames Barrier Park 方向的河岸"
+        "Tate Modern Turbine Hall",
+        "Barbican Conservatory",
+        "Design Museum"
       ],
-      "tip": "西南向天际线与水面倒影，日落前最佳。"
-    },
-    "depart": "14:15",
-    "arrive": "14:30",
-    "spot_ready": "15:45",
-    "shoot_start": "16:00",
-    "shoot_end": "18:00",
-    "sunset": "18:26",
-    "buffer_min": 90
+      "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"
+    }
   }
 }
