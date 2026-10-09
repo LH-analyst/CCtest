@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-08",
-  "weekday": "周四",
-  "generated_at": "2026-10-08T08:08+01:00",
+  "date": "2026-10-09",
+  "weekday": "周五",
+  "generated_at": "2026-10-09T08:08+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:12",
-    "sunset": "18:22",
-    "tmax": 15.0,
-    "tmin": 8.4,
-    "rain_max": 12
+    "sunrise": "07:13",
+    "sunset": "18:19",
+    "tmax": 18.1,
+    "tmin": 11.6,
+    "rain_max": 87
   },
   "shoot": {
-    "score": 96,
-    "sky": "partly",
-    "rain": 0,
-    "cloud": 26,
-    "vis": 28920.0,
-    "good": true
+    "score": 20,
+    "sky": "rain",
+    "rain": 87,
+    "cloud": 83,
+    "vis": 13880.0,
+    "good": false
   },
   "tasks": [],
   "gtv": {
@@ -204,7 +204,7 @@
       "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
       "status": "preparing",
       "url": "",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "name": "Sony World Photography Awards 2027",
@@ -213,7 +213,7 @@
       "theme": "单张约1/5、系列1/12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 89
+      "days_left": 88
     }
   ],
   "competition_results": [
@@ -224,7 +224,7 @@
       "theme": "2026届已截止，结果10/9公布；关注下一届",
       "status": "watching",
       "url": "",
-      "days_left": 1
+      "days_left": 0
     }
   ],
   "competitions_submitted": [
@@ -307,30 +307,22 @@
   "events_today": [],
   "events_soon": [],
   "route": {
-    "go": true,
-    "route": {
-      "id": "canary-wharf",
-      "name": "Canary Wharf 天际线与码头",
-      "travel_min": 15,
-      "transport": "Jubilee line Canning Town → Canary Wharf",
+    "go": false,
+    "reason": "下雨概率高（评分 20），建议改为室内或看展。",
+    "indoor": {
+      "id": "indoor",
+      "name": "室内备选：Tate Modern / Barbican / Saatchi",
+      "travel_min": 35,
+      "transport": "Jubilee / Elizabeth line",
       "best_for": [
-        "clear",
-        "partly",
-        "cloudy"
+        "rain"
       ],
       "spots": [
-        "Westferry Circus",
-        "Cabot Square 倒影",
-        "Crossrail Place 屋顶花园"
+        "Tate Modern Turbine Hall",
+        "Barbican Conservatory",
+        "Design Museum"
       ],
-      "tip": "阴天玻璃幕墙反光柔和，适合建筑与街拍。"
-    },
-    "depart": "14:15",
-    "arrive": "14:30",
-    "spot_ready": "15:45",
-    "shoot_start": "16:00",
-    "shoot_end": "18:00",
-    "sunset": "18:22",
-    "buffer_min": 90
+      "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"
+    }
   }
 }
