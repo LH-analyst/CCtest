@@ -80,6 +80,15 @@
       "title": "Raccont'Arti：提交（10/15 截止，10/13 前提交）",
       "type": "competition",
       "done": false
+    },
+    {
+      "id": 10,
+      "date": "2026-10-16",
+      "time": null,
+      "duration_min": 0,
+      "title": "去 Analogue 取胶卷（时间待定）",
+      "type": "errand",
+      "done": false
     }
   ],
   "daily": []
