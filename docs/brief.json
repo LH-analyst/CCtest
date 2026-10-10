@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-09",
-  "weekday": "周五",
-  "generated_at": "2026-10-09T08:08+01:00",
+  "date": "2026-10-10",
+  "weekday": "周六",
+  "generated_at": "2026-10-10T16:05+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:13",
-    "sunset": "18:19",
-    "tmax": 18.1,
-    "tmin": 11.6,
-    "rain_max": 87
+    "sunrise": "07:15",
+    "sunset": "18:17",
+    "tmax": 15.2,
+    "tmin": 10.0,
+    "rain_max": 0
   },
   "shoot": {
-    "score": 20,
-    "sky": "rain",
-    "rain": 87,
-    "cloud": 83,
-    "vis": 13880.0,
-    "good": false
+    "score": 97,
+    "sky": "partly",
+    "rain": 0,
+    "cloud": 50,
+    "vis": 23480.0,
+    "good": true
   },
   "tasks": [],
   "gtv": {
@@ -204,7 +204,7 @@
       "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
       "status": "preparing",
       "url": "",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "name": "Sony World Photography Awards 2027",
@@ -213,20 +213,10 @@
       "theme": "单张约1/5、系列1/12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 88
+      "days_left": 87
     }
   ],
-  "competition_results": [
-    {
-      "name": "Eyeshot Open Call",
-      "deadline": null,
-      "result_date": "2026-10-09",
-      "theme": "2026届已截止，结果10/9公布；关注下一届",
-      "status": "watching",
-      "url": "",
-      "days_left": 0
-    }
-  ],
+  "competition_results": [],
   "competitions_submitted": [
     {
       "name": "LensCulture Street Photography Awards 2026",
@@ -307,22 +297,30 @@
   "events_today": [],
   "events_soon": [],
   "route": {
-    "go": false,
-    "reason": "下雨概率高（评分 20），建议改为室内或看展。",
-    "indoor": {
-      "id": "indoor",
-      "name": "室内备选：Tate Modern / Barbican / Saatchi",
+    "go": true,
+    "route": {
+      "id": "tower-bridge",
+      "name": "Tower Bridge & Shad Thames",
       "travel_min": 35,
-      "transport": "Jubilee / Elizabeth line",
+      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
       "best_for": [
-        "rain"
+        "clear",
+        "partly",
+        "cloudy"
       ],
       "spots": [
-        "Tate Modern Turbine Hall",
-        "Barbican Conservatory",
-        "Design Museum"
+        "Tower Bridge 北岸",
+        "Shad Thames 街巷",
+        "St Katharine Docks"
       ],
-      "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"
-    }
+      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
+    },
+    "depart": "13:55",
+    "arrive": "14:30",
+    "spot_ready": "15:45",
+    "shoot_start": "16:00",
+    "shoot_end": "18:00",
+    "sunset": "18:17",
+    "buffer_min": 90
   }
 }
