@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-11",
-  "weekday": "周日",
-  "generated_at": "2026-10-11T08:06+01:00",
+  "date": "2026-10-12",
+  "weekday": "周一",
+  "generated_at": "2026-10-12T08:14+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:17",
-    "sunset": "18:15",
-    "tmax": 15.4,
-    "tmin": 10.1,
-    "rain_max": 0
+    "sunrise": "07:18",
+    "sunset": "18:13",
+    "tmax": 16.6,
+    "tmin": 12.8,
+    "rain_max": 47
   },
   "shoot": {
-    "score": 89,
+    "score": 63,
     "sky": "cloudy",
-    "rain": 0,
-    "cloud": 83,
-    "vis": 19720.0,
+    "rain": 27,
+    "cloud": 100,
+    "vis": 20520.0,
     "good": true
   },
   "tasks": [],
@@ -204,7 +204,7 @@
       "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
       "status": "preparing",
       "url": "",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "name": "Sony World Photography Awards 2027",
@@ -213,7 +213,7 @@
       "theme": "单张约1/5、系列1/12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 86
+      "days_left": 85
     }
   ],
   "competition_results": [],
@@ -299,28 +299,27 @@
   "route": {
     "go": true,
     "route": {
-      "id": "tower-bridge",
-      "name": "Tower Bridge & Shad Thames",
-      "travel_min": 35,
-      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
+      "id": "thames-barrier",
+      "name": "Thames Barrier & 河岸工业风",
+      "travel_min": 40,
+      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
       "best_for": [
-        "clear",
-        "partly",
-        "cloudy"
+        "cloudy",
+        "partly"
       ],
       "spots": [
-        "Tower Bridge 北岸",
-        "Shad Thames 街巷",
-        "St Katharine Docks"
+        "Thames Barrier Park",
+        "Barrier Gardens 河岸",
+        "Woolwich 渡口"
       ],
-      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
+      "tip": "阴天情绪化工业影调，避开人群。"
     },
-    "depart": "13:55",
+    "depart": "13:50",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "18:15",
+    "sunset": "18:13",
     "buffer_min": 90
   }
 }
