@@ -1,29 +1,39 @@
 {
-  "date": "2026-10-12",
-  "weekday": "周一",
-  "generated_at": "2026-10-12T08:14+01:00",
+  "date": "2026-10-13",
+  "weekday": "周二",
+  "generated_at": "2026-10-13T08:13+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:18",
-    "sunset": "18:13",
-    "tmax": 16.6,
-    "tmin": 12.8,
-    "rain_max": 47
+    "sunrise": "07:20",
+    "sunset": "18:11",
+    "tmax": 20.2,
+    "tmin": 14.8,
+    "rain_max": 51
   },
   "shoot": {
-    "score": 63,
-    "sky": "cloudy",
-    "rain": 27,
-    "cloud": 100,
-    "vis": 20520.0,
+    "score": 91,
+    "sky": "clear",
+    "rain": 0,
+    "cloud": 4,
+    "vis": 28700.0,
     "good": true
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": 9,
+      "date": "2026-10-13",
+      "time": null,
+      "duration_min": 0,
+      "title": "Raccont'Arti：提交（10/15 截止，10/13 前提交）",
+      "type": "competition",
+      "done": false
+    }
+  ],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
     "source": "Google Drive 文档「GTV申请进度」（同步时按标题搜索）",
-    "synced": "2026-10-04",
+    "synced": "2026-10-13",
     "tracks": [
       {
         "id": "A",
@@ -70,17 +80,17 @@
           {
             "name": "RPS International Photography Exhibition 168",
             "status": "submitted",
-            "note": "已提交，12/15 截止"
+            "note": "已提交；10/19 前提交进早鸟抽奖；费用与巡展场馆待核实"
           },
           {
             "name": "Raccont'Arti Photography Award",
-            "status": "in_progress",
-            "note": "10/15 截止；需10–30张完整项目，已选5张；10/7前起草说明，10/13前提交"
+            "status": "submitted",
+            "note": "已提交《Where Was》10张；待确认收到回执、核对 Picter 规格"
           },
           {
             "name": "Sony World Photography Awards 2027",
             "status": "todo",
-            "note": "单张约1/5、系列1/12，待官网核对"
+            "note": "单张01-05、系列01-12，待官网核对"
           },
           {
             "name": "Siena International Photo Awards 2027",
@@ -95,7 +105,7 @@
           {
             "name": "RPS ARPS Distinction",
             "status": "todo",
-            "note": "待评估：15张连贯系列 + Statement of Intent"
+            "note": "2027 年 RPS 推出新版 Distinctions，等新规则；能否算 GTV 证据未核实"
           },
           {
             "name": "Circulation(s)",
@@ -129,7 +139,7 @@
           {
             "name": "确定3位推荐人人选",
             "status": "todo",
-            "note": "街头摄影权威 / 电影行业 / 发表或策展"
+            "note": "RPS 未回复则换人；第一封必须是英国机构"
           },
           {
             "name": "推荐人邀请及背景材料包",
@@ -155,6 +165,11 @@
             "status": "done"
           },
           {
+            "name": "新增系列页 Where Was / What They Carried",
+            "status": "done",
+            "note": "已上线"
+          },
+          {
             "name": "自定义域名绑定",
             "status": "in_progress",
             "note": "待确认能正常打开"
@@ -166,6 +181,11 @@
           {
             "name": "核对简介措辞（黑白/彩色）",
             "status": "todo"
+          },
+          {
+            "name": "Where Was 页面换成低饱和版本并重新部署",
+            "status": "todo",
+            "note": "在电脑和手机上确认显示"
           }
         ]
       },
@@ -198,22 +218,13 @@
   },
   "competitions": [
     {
-      "name": "Raccont'Arti Photography Award",
-      "deadline": "2026-10-15",
-      "result_date": null,
-      "theme": "主题 Beyond the Visible: The Image of Absence；10–30张完整项目，免费；已选5张，10/7前起草说明，10/13前提交",
-      "status": "preparing",
-      "url": "",
-      "days_left": 3
-    },
-    {
       "name": "Sony World Photography Awards 2027",
       "deadline": "2027-01-05",
       "result_date": null,
-      "theme": "单张约1/5、系列1/12，待官网核对",
+      "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 85
+      "days_left": 84
     }
   ],
   "competition_results": [],
@@ -235,10 +246,18 @@
       "result_date": null
     },
     {
+      "name": "Raccont'Arti Photography Award",
+      "deadline": "2026-10-15",
+      "result_date": null,
+      "theme": "已提交《Where Was》10张；待确认回执",
+      "status": "submitted",
+      "url": ""
+    },
+    {
       "name": "RPS International Photography Exhibition 168",
       "deadline": "2026-12-15",
       "result_date": null,
-      "theme": "已提交，12/15 截止；入选有巡展",
+      "theme": "已提交，12/15 截止；10/19 前早鸟抽奖；入选有巡展",
       "status": "submitted",
       "url": ""
     }
@@ -295,31 +314,41 @@
     }
   ],
   "events_today": [],
-  "events_soon": [],
+  "events_soon": [
+    {
+      "title": "RPS 巡展《Process》（免费）",
+      "start": "2026-10-21",
+      "end": "2026-11-22",
+      "place": "Saatchi Gallery",
+      "note": "来自文档 10/12 更新",
+      "url": "",
+      "days_left": 8
+    }
+  ],
   "route": {
     "go": true,
     "route": {
-      "id": "thames-barrier",
-      "name": "Thames Barrier & 河岸工业风",
-      "travel_min": 40,
-      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
+      "id": "greenwich",
+      "name": "Greenwich 天文台山与河景",
+      "travel_min": 35,
+      "transport": "Jubilee → North Greenwich 转 Cable Car，或 DLR → Cutty Sark",
       "best_for": [
-        "cloudy",
+        "clear",
         "partly"
       ],
       "spots": [
-        "Thames Barrier Park",
-        "Barrier Gardens 河岸",
-        "Woolwich 渡口"
+        "Greenwich Park 天文台山顶",
+        "Cutty Sark 河岸",
+        "Old Royal Naval College"
       ],
-      "tip": "阴天情绪化工业影调，避开人群。"
+      "tip": "山顶俯拍 Canary Wharf 日落，需提前占位。"
     },
-    "depart": "13:50",
+    "depart": "13:55",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "18:13",
+    "sunset": "18:11",
     "buffer_min": 90
   }
 }
