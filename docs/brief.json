@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
   "weekday": "周二",
-  "generated_at": "2026-10-13T07:24+01:00",
+  "generated_at": "2026-10-13T08:20+01:00",
   "weather": {
     "source": "Open-Meteo",
     "sunrise": "07:20",
@@ -26,7 +26,7 @@
       "duration_min": 0,
       "title": "Raccont'Arti：提交（10/15 截止，10/13 前提交）",
       "type": "competition",
-      "done": false
+      "done": true
     }
   ],
   "gtv": {
