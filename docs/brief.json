@@ -1,34 +1,24 @@
 {
-  "date": "2026-10-13",
-  "weekday": "周二",
-  "generated_at": "2026-10-13T08:20+01:00",
+  "date": "2026-10-14",
+  "weekday": "周三",
+  "generated_at": "2026-10-14T08:30+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:20",
-    "sunset": "18:11",
-    "tmax": 20.2,
-    "tmin": 14.8,
-    "rain_max": 51
+    "sunrise": "07:22",
+    "sunset": "18:09",
+    "tmax": 18.0,
+    "tmin": 11.1,
+    "rain_max": 0
   },
   "shoot": {
-    "score": 91,
-    "sky": "clear",
+    "score": 94,
+    "sky": "partly",
     "rain": 0,
-    "cloud": 4,
-    "vis": 28700.0,
+    "cloud": 66,
+    "vis": 25040.0,
     "good": true
   },
-  "tasks": [
-    {
-      "id": 9,
-      "date": "2026-10-13",
-      "time": null,
-      "duration_min": 0,
-      "title": "Raccont'Arti：提交（10/15 截止，10/13 前提交）",
-      "type": "competition",
-      "done": true
-    }
-  ],
+  "tasks": [],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
@@ -224,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 84
+      "days_left": 83
     }
   ],
   "competition_results": [],
@@ -322,33 +312,34 @@
       "place": "Saatchi Gallery",
       "note": "来自文档 10/12 更新",
       "url": "",
-      "days_left": 8
+      "days_left": 7
     }
   ],
   "route": {
     "go": true,
     "route": {
-      "id": "greenwich",
-      "name": "Greenwich 天文台山与河景",
-      "travel_min": 35,
-      "transport": "Jubilee → North Greenwich 转 Cable Car，或 DLR → Cutty Sark",
+      "id": "canary-wharf",
+      "name": "Canary Wharf 天际线与码头",
+      "travel_min": 15,
+      "transport": "Jubilee line Canning Town → Canary Wharf",
       "best_for": [
         "clear",
-        "partly"
+        "partly",
+        "cloudy"
       ],
       "spots": [
-        "Greenwich Park 天文台山顶",
-        "Cutty Sark 河岸",
-        "Old Royal Naval College"
+        "Westferry Circus",
+        "Cabot Square 倒影",
+        "Crossrail Place 屋顶花园"
       ],
-      "tip": "山顶俯拍 Canary Wharf 日落，需提前占位。"
+      "tip": "阴天玻璃幕墙反光柔和，适合建筑与街拍。"
     },
-    "depart": "13:55",
+    "depart": "14:15",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "18:11",
+    "sunset": "18:09",
     "buffer_min": 90
   }
 }
