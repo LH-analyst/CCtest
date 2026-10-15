@@ -24,7 +24,10 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
     steps:
+      # Always build on main (Pages serves main), even when the repo default branch differs.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Only run at 08:00 London for scheduled triggers
         id: gate
@@ -66,7 +69,7 @@ jobs:
           git config user.email "daily-brief@users.noreply.github.com"
           git add data docs
           git diff --cached --quiet || git commit -m "chore: daily brief $(TZ=Europe/London date +%F)"
-          git push
+          git push origin HEAD:main
 
       - name: Push notification via ntfy (optional)
         if: steps.gate.outputs.run == 'true' && env.NTFY_TOPIC != ''
