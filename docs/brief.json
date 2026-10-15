@@ -1,21 +1,21 @@
 {
   "date": "2026-10-15",
   "weekday": "周四",
-  "generated_at": "2026-10-15T08:29+01:00",
+  "generated_at": "2026-10-15T10:22+01:00",
   "weather": {
     "source": "Open-Meteo",
     "sunrise": "07:23",
     "sunset": "18:06",
-    "tmax": 20.4,
+    "tmax": 20.3,
     "tmin": 14.7,
     "rain_max": 2
   },
   "shoot": {
-    "score": 86,
+    "score": 85,
     "sky": "cloudy",
     "rain": 0,
-    "cloud": 96,
-    "vis": 18740.0,
+    "cloud": 98,
+    "vis": 22920.0,
     "good": true
   },
   "tasks": [],
