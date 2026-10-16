@@ -1,24 +1,34 @@
 {
-  "date": "2026-10-15",
-  "weekday": "周四",
-  "generated_at": "2026-10-15T10:22+01:00",
+  "date": "2026-10-16",
+  "weekday": "周五",
+  "generated_at": "2026-10-16T08:26+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:23",
-    "sunset": "18:06",
-    "tmax": 20.3,
-    "tmin": 14.7,
-    "rain_max": 2
+    "sunrise": "07:25",
+    "sunset": "18:04",
+    "tmax": 17.2,
+    "tmin": 10.2,
+    "rain_max": 99
   },
   "shoot": {
-    "score": 85,
-    "sky": "cloudy",
+    "score": 98,
+    "sky": "partly",
     "rain": 0,
-    "cloud": 98,
-    "vis": 22920.0,
+    "cloud": 48,
+    "vis": 24060.0,
     "good": true
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": 10,
+      "date": "2026-10-16",
+      "time": null,
+      "duration_min": 0,
+      "title": "去 Analogue 取胶卷（时间待定）",
+      "type": "errand",
+      "done": false
+    }
+  ],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
     "endorsing_body": "Arts Council England",
@@ -214,7 +224,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 82
+      "days_left": 81
     }
   ],
   "competition_results": [],
@@ -312,33 +322,34 @@
       "place": "Saatchi Gallery",
       "note": "来自文档 10/12 更新",
       "url": "",
-      "days_left": 6
+      "days_left": 5
     }
   ],
   "route": {
     "go": true,
     "route": {
-      "id": "thames-barrier",
-      "name": "Thames Barrier & 河岸工业风",
-      "travel_min": 40,
-      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
+      "id": "tower-bridge",
+      "name": "Tower Bridge & Shad Thames",
+      "travel_min": 35,
+      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
       "best_for": [
-        "cloudy",
-        "partly"
+        "clear",
+        "partly",
+        "cloudy"
       ],
       "spots": [
-        "Thames Barrier Park",
-        "Barrier Gardens 河岸",
-        "Woolwich 渡口"
+        "Tower Bridge 北岸",
+        "Shad Thames 街巷",
+        "St Katharine Docks"
       ],
-      "tip": "阴天情绪化工业影调，避开人群。"
+      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
     },
-    "depart": "13:50",
+    "depart": "13:55",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "18:06",
+    "sunset": "18:04",
     "buffer_min": 90
   }
 }
