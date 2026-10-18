@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-17",
-  "weekday": "周六",
-  "generated_at": "2026-10-17T08:23+01:00",
+  "date": "2026-10-18",
+  "weekday": "周日",
+  "generated_at": "2026-10-18T08:22+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:27",
-    "sunset": "18:02",
-    "tmax": 13.8,
-    "tmin": 7.7,
-    "rain_max": 2
+    "sunrise": "07:28",
+    "sunset": "18:00",
+    "tmax": 13.9,
+    "tmin": 8.7,
+    "rain_max": 92
   },
   "shoot": {
-    "score": 86,
+    "score": 72,
     "sky": "cloudy",
-    "rain": 2,
-    "cloud": 92,
-    "vis": 16260.0,
+    "rain": 24,
+    "cloud": 77,
+    "vis": 23400.0,
     "good": true
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 80
+      "days_left": 79
     }
   ],
   "competition_results": [],
@@ -312,34 +312,33 @@
       "place": "Saatchi Gallery",
       "note": "来自文档 10/12 更新",
       "url": "",
-      "days_left": 4
+      "days_left": 3
     }
   ],
   "route": {
     "go": true,
     "route": {
-      "id": "tower-bridge",
-      "name": "Tower Bridge & Shad Thames",
-      "travel_min": 35,
-      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
+      "id": "thames-barrier",
+      "name": "Thames Barrier & 河岸工业风",
+      "travel_min": 40,
+      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
       "best_for": [
-        "clear",
-        "partly",
-        "cloudy"
+        "cloudy",
+        "partly"
       ],
       "spots": [
-        "Tower Bridge 北岸",
-        "Shad Thames 街巷",
-        "St Katharine Docks"
+        "Thames Barrier Park",
+        "Barrier Gardens 河岸",
+        "Woolwich 渡口"
       ],
-      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
+      "tip": "阴天情绪化工业影调，避开人群。"
     },
-    "depart": "13:55",
+    "depart": "13:50",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "18:02",
+    "sunset": "18:00",
     "buffer_min": 90
   }
 }
