@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-18",
-  "weekday": "周日",
-  "generated_at": "2026-10-18T08:22+01:00",
+  "date": "2026-10-19",
+  "weekday": "周一",
+  "generated_at": "2026-10-19T08:37+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:28",
-    "sunset": "18:00",
-    "tmax": 13.9,
-    "tmin": 8.7,
-    "rain_max": 92
+    "sunrise": "07:30",
+    "sunset": "17:58",
+    "tmax": 13.2,
+    "tmin": 9.9,
+    "rain_max": 65
   },
   "shoot": {
-    "score": 72,
+    "score": 86,
     "sky": "cloudy",
-    "rain": 24,
-    "cloud": 77,
-    "vis": 23400.0,
+    "rain": 0,
+    "cloud": 96,
+    "vis": 18060.0,
     "good": true
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 79
+      "days_left": 78
     }
   ],
   "competition_results": [],
@@ -312,33 +312,34 @@
       "place": "Saatchi Gallery",
       "note": "来自文档 10/12 更新",
       "url": "",
-      "days_left": 3
+      "days_left": 2
     }
   ],
   "route": {
     "go": true,
     "route": {
-      "id": "thames-barrier",
-      "name": "Thames Barrier & 河岸工业风",
-      "travel_min": 40,
-      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
+      "id": "canary-wharf",
+      "name": "Canary Wharf 天际线与码头",
+      "travel_min": 15,
+      "transport": "Jubilee line Canning Town → Canary Wharf",
       "best_for": [
-        "cloudy",
-        "partly"
+        "clear",
+        "partly",
+        "cloudy"
       ],
       "spots": [
-        "Thames Barrier Park",
-        "Barrier Gardens 河岸",
-        "Woolwich 渡口"
+        "Westferry Circus",
+        "Cabot Square 倒影",
+        "Crossrail Place 屋顶花园"
       ],
-      "tip": "阴天情绪化工业影调，避开人群。"
+      "tip": "阴天玻璃幕墙反光柔和，适合建筑与街拍。"
     },
-    "depart": "13:50",
+    "depart": "14:15",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "18:00",
+    "sunset": "17:58",
     "buffer_min": 90
   }
 }
