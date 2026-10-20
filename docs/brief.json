@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-19",
-  "weekday": "周一",
-  "generated_at": "2026-10-19T08:37+01:00",
+  "date": "2026-10-20",
+  "weekday": "周二",
+  "generated_at": "2026-10-20T08:29+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:30",
-    "sunset": "17:58",
-    "tmax": 13.2,
-    "tmin": 9.9,
-    "rain_max": 65
+    "sunrise": "07:32",
+    "sunset": "17:56",
+    "tmax": 12.9,
+    "tmin": 11.3,
+    "rain_max": 87
   },
   "shoot": {
-    "score": 86,
-    "sky": "cloudy",
-    "rain": 0,
-    "cloud": 96,
-    "vis": 18060.0,
-    "good": true
+    "score": 0,
+    "sky": "rain",
+    "rain": 82,
+    "cloud": 100,
+    "vis": 4760.0,
+    "good": false
   },
   "tasks": [],
   "gtv": {
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 78
+      "days_left": 77
     }
   ],
   "competition_results": [],
@@ -312,34 +312,26 @@
       "place": "Saatchi Gallery",
       "note": "来自文档 10/12 更新",
       "url": "",
-      "days_left": 2
+      "days_left": 1
     }
   ],
   "route": {
-    "go": true,
-    "route": {
-      "id": "canary-wharf",
-      "name": "Canary Wharf 天际线与码头",
-      "travel_min": 15,
-      "transport": "Jubilee line Canning Town → Canary Wharf",
+    "go": false,
+    "reason": "下雨概率高（评分 0），建议改为室内或看展。",
+    "indoor": {
+      "id": "indoor",
+      "name": "室内备选：Tate Modern / Barbican / Saatchi",
+      "travel_min": 35,
+      "transport": "Jubilee / Elizabeth line",
       "best_for": [
-        "clear",
-        "partly",
-        "cloudy"
+        "rain"
       ],
       "spots": [
-        "Westferry Circus",
-        "Cabot Square 倒影",
-        "Crossrail Place 屋顶花园"
+        "Tate Modern Turbine Hall",
+        "Barbican Conservatory",
+        "Design Museum"
       ],
-      "tip": "阴天玻璃幕墙反光柔和，适合建筑与街拍。"
-    },
-    "depart": "14:15",
-    "arrive": "14:30",
-    "spot_ready": "15:45",
-    "shoot_start": "16:00",
-    "shoot_end": "18:00",
-    "sunset": "17:58",
-    "buffer_min": 90
+      "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"
+    }
   }
 }
