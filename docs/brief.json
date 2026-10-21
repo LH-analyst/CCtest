@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-20",
-  "weekday": "周二",
-  "generated_at": "2026-10-20T08:29+01:00",
+  "date": "2026-10-21",
+  "weekday": "周三",
+  "generated_at": "2026-10-21T08:32+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:32",
-    "sunset": "17:56",
-    "tmax": 12.9,
-    "tmin": 11.3,
-    "rain_max": 87
+    "sunrise": "07:34",
+    "sunset": "17:54",
+    "tmax": 11.1,
+    "tmin": 8.8,
+    "rain_max": 100
   },
   "shoot": {
-    "score": 0,
-    "sky": "rain",
-    "rain": 82,
+    "score": 54,
+    "sky": "cloudy",
+    "rain": 39,
     "cloud": 100,
-    "vis": 4760.0,
+    "vis": 20280.0,
     "good": false
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 77
+      "days_left": 76
     }
   ],
   "competition_results": [],
@@ -303,21 +303,20 @@
       "url": ""
     }
   ],
-  "events_today": [],
-  "events_soon": [
+  "events_today": [
     {
       "title": "RPS 巡展《Process》（免费）",
       "start": "2026-10-21",
       "end": "2026-11-22",
       "place": "Saatchi Gallery",
       "note": "来自文档 10/12 更新",
-      "url": "",
-      "days_left": 1
+      "url": ""
     }
   ],
+  "events_soon": [],
   "route": {
     "go": false,
-    "reason": "下雨概率高（评分 0），建议改为室内或看展。",
+    "reason": "光线/能见度评分偏低（评分 54），建议改为室内或看展。",
     "indoor": {
       "id": "indoor",
       "name": "室内备选：Tate Modern / Barbican / Saatchi",
