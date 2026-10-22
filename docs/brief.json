@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-21",
-  "weekday": "周三",
-  "generated_at": "2026-10-21T08:32+01:00",
+  "date": "2026-10-22",
+  "weekday": "周四",
+  "generated_at": "2026-10-22T08:33+01:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:34",
-    "sunset": "17:54",
-    "tmax": 11.1,
-    "tmin": 8.8,
+    "sunrise": "07:35",
+    "sunset": "17:52",
+    "tmax": 13.6,
+    "tmin": 9.2,
     "rain_max": 100
   },
   "shoot": {
-    "score": 54,
-    "sky": "cloudy",
-    "rain": 39,
-    "cloud": 100,
-    "vis": 20280.0,
-    "good": false
+    "score": 99,
+    "sky": "partly",
+    "rain": 0,
+    "cloud": 36,
+    "vis": 21860.0,
+    "good": true
   },
   "tasks": [],
   "gtv": {
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 76
+      "days_left": 75
     }
   ],
   "competition_results": [],
@@ -315,22 +315,30 @@
   ],
   "events_soon": [],
   "route": {
-    "go": false,
-    "reason": "光线/能见度评分偏低（评分 54），建议改为室内或看展。",
-    "indoor": {
-      "id": "indoor",
-      "name": "室内备选：Tate Modern / Barbican / Saatchi",
+    "go": true,
+    "route": {
+      "id": "tower-bridge",
+      "name": "Tower Bridge & Shad Thames",
       "travel_min": 35,
-      "transport": "Jubilee / Elizabeth line",
+      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
       "best_for": [
-        "rain"
+        "clear",
+        "partly",
+        "cloudy"
       ],
       "spots": [
-        "Tate Modern Turbine Hall",
-        "Barbican Conservatory",
-        "Design Museum"
+        "Tower Bridge 北岸",
+        "Shad Thames 街巷",
+        "St Katharine Docks"
       ],
-      "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"
-    }
+      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
+    },
+    "depart": "13:55",
+    "arrive": "14:30",
+    "spot_ready": "15:45",
+    "shoot_start": "16:00",
+    "shoot_end": "18:00",
+    "sunset": "17:52",
+    "buffer_min": 90
   }
 }
