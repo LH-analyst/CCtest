@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-26",
-  "weekday": "周一",
-  "generated_at": "2026-10-26T08:38+00:00",
+  "date": "2026-10-27",
+  "weekday": "周二",
+  "generated_at": "2026-10-27T08:34+00:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "06:42",
-    "sunset": "16:44",
-    "tmax": 16.2,
-    "tmin": 9.6,
-    "rain_max": 96
+    "sunrise": "06:44",
+    "sunset": "16:42",
+    "tmax": 16.6,
+    "tmin": 10.2,
+    "rain_max": 94
   },
   "shoot": {
-    "score": 48,
-    "sky": "rain",
-    "rain": 52,
-    "cloud": 82,
-    "vis": 17620.0,
-    "good": false
+    "score": 82,
+    "sky": "clear",
+    "rain": 10,
+    "cloud": 0,
+    "vis": 22940.0,
+    "good": true
   },
   "tasks": [],
   "gtv": {
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 71
+      "days_left": 70
     }
   ],
   "competition_results": [],
@@ -315,22 +315,30 @@
   ],
   "events_soon": [],
   "route": {
-    "go": false,
-    "reason": "下雨概率高（评分 48），建议改为室内或看展。",
-    "indoor": {
-      "id": "indoor",
-      "name": "室内备选：Tate Modern / Barbican / Saatchi",
-      "travel_min": 35,
-      "transport": "Jubilee / Elizabeth line",
+    "go": true,
+    "route": {
+      "id": "canary-wharf",
+      "name": "Canary Wharf 天际线与码头",
+      "travel_min": 15,
+      "transport": "Jubilee line Canning Town → Canary Wharf",
       "best_for": [
-        "rain"
+        "clear",
+        "partly",
+        "cloudy"
       ],
       "spots": [
-        "Tate Modern Turbine Hall",
-        "Barbican Conservatory",
-        "Design Museum"
+        "Westferry Circus",
+        "Cabot Square 倒影",
+        "Crossrail Place 屋顶花园"
       ],
-      "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"
-    }
+      "tip": "阴天玻璃幕墙反光柔和，适合建筑与街拍。"
+    },
+    "depart": "14:15",
+    "arrive": "14:30",
+    "spot_ready": "15:45",
+    "shoot_start": "16:00",
+    "shoot_end": "18:00",
+    "sunset": "16:42",
+    "buffer_min": 90
   }
 }
