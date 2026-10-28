@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-27",
-  "weekday": "周二",
-  "generated_at": "2026-10-27T08:34+00:00",
+  "date": "2026-10-28",
+  "weekday": "周三",
+  "generated_at": "2026-10-28T08:42+00:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "06:44",
-    "sunset": "16:42",
-    "tmax": 16.6,
-    "tmin": 10.2,
-    "rain_max": 94
+    "sunrise": "06:46",
+    "sunset": "16:40",
+    "tmax": 15.4,
+    "tmin": 8.5,
+    "rain_max": 0
   },
   "shoot": {
-    "score": 82,
-    "sky": "clear",
-    "rain": 10,
-    "cloud": 0,
-    "vis": 22940.0,
+    "score": 90,
+    "sky": "cloudy",
+    "rain": 0,
+    "cloud": 78,
+    "vis": 16920.0,
     "good": true
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 70
+      "days_left": 69
     }
   ],
   "competition_results": [],
@@ -338,7 +338,7 @@
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "16:42",
+    "sunset": "16:40",
     "buffer_min": 90
   }
 }
