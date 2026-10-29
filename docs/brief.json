@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-28",
-  "weekday": "周三",
-  "generated_at": "2026-10-28T08:42+00:00",
+  "date": "2026-10-29",
+  "weekday": "周四",
+  "generated_at": "2026-10-29T08:45+00:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "06:46",
-    "sunset": "16:40",
-    "tmax": 15.4,
-    "tmin": 8.5,
+    "sunrise": "06:48",
+    "sunset": "16:38",
+    "tmax": 16.3,
+    "tmin": 11.8,
     "rain_max": 0
   },
   "shoot": {
     "score": 90,
     "sky": "cloudy",
     "rain": 0,
-    "cloud": 78,
-    "vis": 16920.0,
+    "cloud": 79,
+    "vis": 11160.0,
     "good": true
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 69
+      "days_left": 68
     }
   ],
   "competition_results": [],
@@ -317,28 +317,28 @@
   "route": {
     "go": true,
     "route": {
-      "id": "canary-wharf",
-      "name": "Canary Wharf 天际线与码头",
-      "travel_min": 15,
-      "transport": "Jubilee line Canning Town → Canary Wharf",
+      "id": "tower-bridge",
+      "name": "Tower Bridge & Shad Thames",
+      "travel_min": 35,
+      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
       "best_for": [
         "clear",
         "partly",
         "cloudy"
       ],
       "spots": [
-        "Westferry Circus",
-        "Cabot Square 倒影",
-        "Crossrail Place 屋顶花园"
+        "Tower Bridge 北岸",
+        "Shad Thames 街巷",
+        "St Katharine Docks"
       ],
-      "tip": "阴天玻璃幕墙反光柔和，适合建筑与街拍。"
+      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
     },
-    "depart": "14:15",
+    "depart": "13:55",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "16:40",
+    "sunset": "16:38",
     "buffer_min": 90
   }
 }
