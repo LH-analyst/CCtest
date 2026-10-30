@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-29",
-  "weekday": "周四",
-  "generated_at": "2026-10-29T08:45+00:00",
+  "date": "2026-10-30",
+  "weekday": "周五",
+  "generated_at": "2026-10-30T08:45+00:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "06:48",
-    "sunset": "16:38",
-    "tmax": 16.3,
-    "tmin": 11.8,
+    "sunrise": "06:49",
+    "sunset": "16:36",
+    "tmax": 15.0,
+    "tmin": 8.9,
     "rain_max": 0
   },
   "shoot": {
     "score": 90,
-    "sky": "cloudy",
+    "sky": "clear",
     "rain": 0,
-    "cloud": 79,
-    "vis": 11160.0,
+    "cloud": 0,
+    "vis": 14380.0,
     "good": true
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 68
+      "days_left": 67
     }
   ],
   "competition_results": [],
@@ -317,28 +317,27 @@
   "route": {
     "go": true,
     "route": {
-      "id": "tower-bridge",
-      "name": "Tower Bridge & Shad Thames",
+      "id": "southbank",
+      "name": "Southbank & Waterloo Bridge 日落",
       "travel_min": 35,
-      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
+      "transport": "Jubilee → Waterloo/Southwark",
       "best_for": [
         "clear",
-        "partly",
-        "cloudy"
+        "partly"
       ],
       "spots": [
-        "Tower Bridge 北岸",
-        "Shad Thames 街巷",
-        "St Katharine Docks"
+        "Waterloo Bridge 中段",
+        "Southbank 长廊",
+        "Gabriel's Wharf"
       ],
-      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
+      "tip": "东向看 City/Shard 的暖光，西向看日落剪影。"
     },
     "depart": "13:55",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "16:38",
+    "sunset": "16:36",
     "buffer_min": 90
   }
 }
