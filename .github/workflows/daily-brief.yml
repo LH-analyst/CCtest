@@ -29,11 +29,15 @@ jobs:
         with:
           ref: main
 
-      - name: Only run at 08:00 London for scheduled triggers
+      # GitHub often delays cron runs by hours, so don't require the 08:00 hour exactly:
+      # a scheduled run builds once per London day, any time from 08:00 onwards.
+      - name: Gate scheduled runs to one build per London day
         id: gate
         run: |
           hour=$(TZ=Europe/London date +%H)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$hour" != "08" ]; then
+          today=$(TZ=Europe/London date +%F)
+          built=$(python3 -c "import json;print(json.load(open('docs/brief.json')).get('date',''))" 2>/dev/null || true)
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$hour" -lt 8 ] || [ "$built" = "$today" ]; }; then
             echo "run=false" >> "$GITHUB_OUTPUT"
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
