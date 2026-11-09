@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-08",
-  "weekday": "周日",
-  "generated_at": "2026-11-08T13:57+00:00",
+  "date": "2026-11-09",
+  "weekday": "周一",
+  "generated_at": "2026-11-09T16:57+00:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:05",
-    "sunset": "16:21",
-    "tmax": 10.9,
-    "tmin": 8.0,
-    "rain_max": 2
+    "sunrise": "07:07",
+    "sunset": "16:19",
+    "tmax": 10.1,
+    "tmin": 4.8,
+    "rain_max": 0
   },
   "shoot": {
-    "score": 57,
-    "sky": "cloudy",
+    "score": 65,
+    "sky": "clear",
     "rain": 0,
-    "cloud": 76,
-    "vis": 4660.0,
+    "cloud": 9,
+    "vis": 5320.0,
     "good": true
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 58
+      "days_left": 57
     }
   ],
   "competition_results": [],
@@ -317,27 +317,27 @@
   "route": {
     "go": true,
     "route": {
-      "id": "thames-barrier",
-      "name": "Thames Barrier & 河岸工业风",
-      "travel_min": 40,
-      "transport": "DLR/Jubilee 转 Woolwich 方向，或 Charlton 站步行",
+      "id": "southbank",
+      "name": "Southbank & Waterloo Bridge 日落",
+      "travel_min": 35,
+      "transport": "Jubilee → Waterloo/Southwark",
       "best_for": [
-        "cloudy",
+        "clear",
         "partly"
       ],
       "spots": [
-        "Thames Barrier Park",
-        "Barrier Gardens 河岸",
-        "Woolwich 渡口"
+        "Waterloo Bridge 中段",
+        "Southbank 长廊",
+        "Gabriel's Wharf"
       ],
-      "tip": "阴天情绪化工业影调，避开人群。"
+      "tip": "东向看 City/Shard 的暖光，西向看日落剪影。"
     },
-    "depart": "13:50",
+    "depart": "13:55",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "16:21",
+    "sunset": "16:19",
     "buffer_min": 90
   }
 }
