@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-12",
-  "weekday": "周四",
-  "generated_at": "2026-11-12T15:39+00:00",
+  "date": "2026-11-13",
+  "weekday": "周五",
+  "generated_at": "2026-11-13T14:58+00:00",
   "weather": {
     "source": "Open-Meteo",
-    "sunrise": "07:12",
-    "sunset": "16:14",
-    "tmax": 8.2,
-    "tmin": 4.3,
+    "sunrise": "07:14",
+    "sunset": "16:13",
+    "tmax": 7.7,
+    "tmin": 2.2,
     "rain_max": 0
   },
   "shoot": {
-    "score": 95,
+    "score": 90,
     "sky": "clear",
     "rain": 0,
-    "cloud": 18,
-    "vis": 18140.0,
+    "cloud": 0,
+    "vis": 12540.0,
     "good": true
   },
   "tasks": [],
@@ -214,7 +214,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 54
+      "days_left": 53
     }
   ],
   "competition_results": [],
@@ -317,27 +317,28 @@
   "route": {
     "go": true,
     "route": {
-      "id": "greenwich",
-      "name": "Greenwich 天文台山与河景",
+      "id": "tower-bridge",
+      "name": "Tower Bridge & Shad Thames",
       "travel_min": 35,
-      "transport": "Jubilee → North Greenwich 转 Cable Car，或 DLR → Cutty Sark",
+      "transport": "Jubilee → London Bridge，步行；或 DLR → Tower Gateway",
       "best_for": [
         "clear",
-        "partly"
+        "partly",
+        "cloudy"
       ],
       "spots": [
-        "Greenwich Park 天文台山顶",
-        "Cutty Sark 河岸",
-        "Old Royal Naval College"
+        "Tower Bridge 北岸",
+        "Shad Thames 街巷",
+        "St Katharine Docks"
       ],
-      "tip": "山顶俯拍 Canary Wharf 日落，需提前占位。"
+      "tip": "天空有云时戏剧性最好，河岸暖光扫过桥身。"
     },
     "depart": "13:55",
     "arrive": "14:30",
     "spot_ready": "15:45",
     "shoot_start": "16:00",
     "shoot_end": "18:00",
-    "sunset": "16:14",
+    "sunset": "16:13",
     "buffer_min": 90
   }
 }
