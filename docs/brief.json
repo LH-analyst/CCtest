@@ -1,23 +1,9 @@
 {
-  "date": "2026-11-15",
-  "weekday": "周日",
-  "generated_at": "2026-11-15T14:24+00:00",
-  "weather": {
-    "source": "Open-Meteo",
-    "sunrise": "07:17",
-    "sunset": "16:10",
-    "tmax": 10.0,
-    "tmin": 2.9,
-    "rain_max": 84
-  },
-  "shoot": {
-    "score": 39,
-    "sky": "rain",
-    "rain": 60,
-    "cloud": 92,
-    "vis": 8500.0,
-    "good": false
-  },
+  "date": "2026-11-16",
+  "weekday": "周一",
+  "generated_at": "2026-11-16T16:35+00:00",
+  "weather": null,
+  "shoot": null,
   "tasks": [],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
@@ -214,7 +200,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 51
+      "days_left": 50
     }
   ],
   "competition_results": [],
@@ -316,21 +302,6 @@
   "events_soon": [],
   "route": {
     "go": false,
-    "reason": "下雨概率高（评分 39），建议改为室内或看展。",
-    "indoor": {
-      "id": "indoor",
-      "name": "室内备选：Tate Modern / Barbican / Saatchi",
-      "travel_min": 35,
-      "transport": "Jubilee / Elizabeth line",
-      "best_for": [
-        "rain"
-      ],
-      "spots": [
-        "Tate Modern Turbine Hall",
-        "Barbican Conservatory",
-        "Design Museum"
-      ],
-      "tip": "雨天转看展/室内建筑摄影，同时找参赛灵感。"
-    }
+    "reason": "暂无天气数据，无法判断是否适合拍摄。"
   }
 }
