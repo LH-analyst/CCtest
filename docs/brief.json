@@ -1,23 +1,9 @@
 {
-  "date": "2026-11-18",
-  "weekday": "周三",
-  "generated_at": "2026-11-18T16:01+00:00",
-  "weather": {
-    "source": "Open-Meteo",
-    "sunrise": "07:22",
-    "sunset": "16:06",
-    "tmax": 11.9,
-    "tmin": 9.2,
-    "rain_max": 70
-  },
-  "shoot": {
-    "score": 67,
-    "sky": "partly",
-    "rain": 38,
-    "cloud": 29,
-    "vis": 11840.0,
-    "good": true
-  },
+  "date": "2026-11-19",
+  "weekday": "周四",
+  "generated_at": "2026-11-19T16:09+00:00",
+  "weather": null,
+  "shoot": null,
   "tasks": [],
   "gtv": {
     "route": "Global Talent Visa (Arts & Culture - Photography, Exceptional Promise)",
@@ -214,7 +200,7 @@
       "theme": "单张01-05、系列01-12，待官网核对",
       "status": "preparing",
       "url": "",
-      "days_left": 48
+      "days_left": 47
     }
   ],
   "competition_results": [],
@@ -315,29 +301,7 @@
   ],
   "events_soon": [],
   "route": {
-    "go": true,
-    "route": {
-      "id": "royal-docks",
-      "name": "Royal Docks & Emirates Air Line",
-      "travel_min": 15,
-      "transport": "DLR/步行 Canning Town → Royal Victoria",
-      "best_for": [
-        "clear",
-        "partly"
-      ],
-      "spots": [
-        "Royal Victoria Dock 人行桥",
-        "Emirates Air Line 缆车站",
-        "Thames Barrier Park 方向的河岸"
-      ],
-      "tip": "西南向天际线与水面倒影，日落前最佳。"
-    },
-    "depart": "14:15",
-    "arrive": "14:30",
-    "spot_ready": "15:45",
-    "shoot_start": "16:00",
-    "shoot_end": "18:00",
-    "sunset": "16:06",
-    "buffer_min": 90
+    "go": false,
+    "reason": "暂无天气数据，无法判断是否适合拍摄。"
   }
 }
